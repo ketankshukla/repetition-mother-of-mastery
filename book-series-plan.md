@@ -449,6 +449,7 @@ The original 20-chapter book is expanded to 50 chapters across 5 books. Each ori
 - **Images:** Next.js `Image` component for optimized loading
 - **Deployment:** Vercel (via GitHub push)
 - **Font:** Inter (Google Fonts)
+- **Location:** Repository root (all website project files — `package.json`, `next.config.ts`, `src/`, `public/`, etc. — must live at the repo root, **not** in a subdirectory, so Vercel auto-detects the framework and deploys without manual configuration)
 
 ### Current Status
 
@@ -460,6 +461,7 @@ The original 20-chapter book is expanded to 50 chapters across 5 books. Each ori
 
 ## Notes
 
+- **All website projects must be created at the repository root.** Vercel deploys directly from the repo root, so placing the Next.js app in a subdirectory (e.g. `website/`) requires manual Root Directory configuration in Vercel. To avoid this, always keep the website at the repo root.
 - Each book contains **10 new expanded chapters** that deeply explore the themes from the original 20-chapter manuscript.
 - Each chapter is **1500 words minimum**.
 - The chapter groupings follow a deliberate thematic arc — science → habits → application → cognition → integration.
