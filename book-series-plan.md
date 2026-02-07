@@ -440,6 +440,53 @@ The original 20-chapter book is expanded to 50 chapters across 5 books. Each ori
 
 ---
 
+## Image Generation Settings — Cover Prompts
+
+All 25 book cover image prompts (5 per book) follow a consistent visual standard:
+
+### Portrait & Composition
+
+- **Format:** 9:16 portrait (vertical book cover)
+- **Subject framing:** Close-up three-quarter portrait, filling at least 70% of the image
+- **Subject:** Beautiful young white woman in her 20s
+- **Background elements:** Pushed slightly out of focus behind the subject
+
+### Face & Realism
+
+- **Style:** Photorealistic with extraordinary detail
+- **Skin:** Flawless yet natural — subtle pores, light freckles, natural texture
+- **Eyes:** Luminous with visible iris detail and natural catchlights
+- **Eyebrows:** Full and defined
+- **Lips:** Soft and natural
+- **Character:** Stunningly gorgeous yet radiates simplicity and humility — no vanity, only quiet strength and earned character
+- **Lighting:** Warm golden light on skin, every contour and shadow rendered with cinematic precision
+
+### Facial Expression
+
+- Each prompt features a **unique, deeply specific expression** tied to the book's title and themes
+- Expressions convey the emotional and intellectual essence of the book — not generic beauty poses but character-driven storytelling through the face
+- Book 1 expressions: scientific wonder, intellectual awakening, discovery of foundational truth
+- Book 2 expressions: daily discipline, habit-driven resolve, compound growth, sacred ritual
+- Book 3 expressions: athletic intensity, creative ecstasy, multi-domain mastery, performance readiness
+- Book 4 expressions: cognitive sharpness, analytical precision, strategic brilliance, intellectual curiosity
+- Book 5 expressions: transcendent completion, deep-rooted strength, legacy wisdom, holistic fulfillment
+
+### Typography (top to bottom)
+
+- **"THE REPETITION SERIES"** — small elegant Garamond, centered, gold, letter-spacing 0.15em, font size 14pt
+- **"BOOK [I/II/III/IV/V]"** — Garamond, centered, gold, letter-spacing 0.2em, font size 12pt
+- **Book title** — large elegant Garamond, centered (color varies per prompt)
+- **Book subtitle** — smaller Garamond, centered (color varies per prompt)
+- **"KETAN SHUKLA"** — large Garamond, centered, generous letter spacing (color varies per prompt)
+
+### Color Palette
+
+- **Backgrounds:** Deep midnight blue, deep black, deep navy, deep charcoal
+- **Accent lighting:** Warm gold, amber, golden light
+- **Overall feel:** Dark, cinematic, dramatic, warm
+
+---
+
 ## Website — Tabbed Series Landing Page
 
 ### Technology Stack
