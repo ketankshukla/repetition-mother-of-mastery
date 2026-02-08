@@ -8,6 +8,7 @@ export function Book3Page() {
     <BookPageTemplate
       bookIndex={2}
       romanNumeral="III"
+      coverImage="/book-covers/book3-cover.png"
       elaborateDescription={description}
       prevBookHref="/book-2"
       nextBookHref="/book-4"

@@ -2,24 +2,28 @@
 
 @theme inline {
   --color-background: #0a0a0a;
-  --color-foreground: #f8f8f8;
+  --color-foreground: #f5e6c8;
   --color-gold: #d4a843;
   --color-gold-light: #e8c96a;
   --color-gold-dark: #b8922e;
-  --color-navy: #0f1b2d;
-  --color-navy-light: #1a2d4a;
-  --color-navy-dark: #080f1a;
+  --color-navy: #0a0a0a;
+  --color-navy-light: #141414;
+  --color-navy-dark: #050505;
   --color-amber: #c9913b;
+  --color-cream: #f5e6c8;
+  --color-amazon-yellow: #ffd814;
+  --color-amazon-yellow-hover: #f7ca00;
   --font-sans: var(--font-inter);
+  --font-serif: var(--font-garamond);
 }
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: #d4a843 #1a2d4a;
+  scrollbar-color: #d4a843 #0a0a0a;
 }
 
 body {
-  background: var(--color-navy-dark);
+  background: #050505;
   color: var(--color-foreground);
   font-feature-settings: "liga", "kern";
   text-rendering: optimizeLegibility;
@@ -33,7 +37,7 @@ html {
 
 ::selection {
   background: #d4a843;
-  color: #080f1a;
+  color: #050505;
 }
 
 /* Custom animations */
@@ -69,7 +73,8 @@ html {
 }
 
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0px);
   }
   50% {
@@ -106,7 +111,7 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: #1a2d4a;
+  background: #0a0a0a;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -120,13 +125,13 @@ html {
 
 /* Glass morphism effects */
 .glass {
-  background: rgba(26, 45, 74, 0.4);
+  background: rgba(20, 20, 20, 0.6);
   backdrop-filter: blur(12px);
   border: 1px solid rgba(212, 168, 67, 0.1);
 }
 
 .glass-dark {
-  background: rgba(8, 15, 26, 0.6);
+  background: rgba(5, 5, 5, 0.8);
   backdrop-filter: blur(16px);
   border: 1px solid rgba(212, 168, 67, 0.15);
 }
@@ -137,7 +142,7 @@ html {
 }
 
 .gradient-navy {
-  background: linear-gradient(135deg, #080f1a, #0f1b2d, #1a2d4a);
+  background: linear-gradient(135deg, #050505, #0a0a0a, #141414);
 }
 
 .gradient-text-gold {
@@ -170,12 +175,42 @@ html {
   box-shadow: 0 20px 60px rgba(212, 168, 67, 0.2);
 }
 
+/* Serif font utility */
+.font-serif {
+  font-family: var(--font-serif), Georgia, "Times New Roman", serif;
+}
+
 /* Text gradients for headings */
 .heading-gradient {
-  background: linear-gradient(135deg, #f8f8f8, #d4a843, #f8f8f8);
+  background: linear-gradient(135deg, #f5e6c8, #d4a843, #f5e6c8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   background-size: 200% 200%;
   animation: shimmer 3s ease-in-out infinite;
+}
+
+/* Amazon CTA button */
+.btn-amazon {
+  background: linear-gradient(to bottom, #ffd814, #f7ca00);
+  color: #0f1111;
+  font-weight: 700;
+  border-radius: 9999px;
+  padding: 0.75rem 2rem;
+  transition: all 0.2s;
+  border: 1px solid #f2c200;
+  box-shadow: 0 2px 5px rgba(213, 217, 217, 0.2);
+}
+
+.btn-amazon:hover {
+  background: linear-gradient(to bottom, #f7ca00, #e8b800);
+  box-shadow: 0 4px 12px rgba(255, 216, 20, 0.3);
+}
+
+/* Mobile-friendly base */
+@media (max-width: 640px) {
+  html {
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+  }
 }

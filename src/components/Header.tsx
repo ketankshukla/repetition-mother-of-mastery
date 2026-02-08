@@ -18,8 +18,7 @@ export default function Header() {
 
   const navItems = [
     { href: "#books", label: "The Books" },
-    { href: "#about", label: "About" },
-    { href: "#author", label: "Author" },
+    { href: "#author", label: "The Author" },
   ];
 
   return (
@@ -41,10 +40,10 @@ export default function Header() {
               <div className="absolute -inset-1 animate-pulse rounded-full bg-gold/20 blur-sm" />
             </div>
             <div className="hidden sm:block">
-              <p className="text-xs font-semibold tracking-[0.25em] uppercase text-gold transition-colors group-hover:text-gold-light">
+              <p className="font-serif text-xs font-semibold tracking-[0.25em] uppercase text-gold transition-colors group-hover:text-gold-light">
                 The Repetition Series
               </p>
-              <p className="text-sm text-foreground/70 transition-colors group-hover:text-foreground">
+              <p className="font-serif text-sm text-foreground/70 transition-colors group-hover:text-foreground italic">
                 by Ketan Shukla
               </p>
             </div>
