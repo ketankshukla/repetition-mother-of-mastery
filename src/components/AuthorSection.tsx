@@ -1,6 +1,6 @@
 "use client";
 
-import { Pen, BookOpen, Target, Heart } from "lucide-react";
+import { BookOpen, Target, Heart } from "lucide-react";
 
 export default function AuthorSection() {
   return (
@@ -23,27 +23,26 @@ export default function AuthorSection() {
 
         {/* Author Card */}
         <div className="relative overflow-hidden rounded-2xl border border-gold/20 glass p-6 sm:p-10">
-          <div className="flex flex-col items-center gap-6 sm:flex-row sm:items-start sm:gap-10">
-            {/* Avatar */}
-            <div className="relative shrink-0">
-              <div className="flex h-24 w-24 sm:h-28 sm:w-28 items-center justify-center rounded-full border-2 border-gold/30 bg-gold/10">
-                <Pen className="h-12 w-12 sm:h-14 sm:w-14 text-gold" />
+          <div className="flex flex-col items-center gap-8 md:flex-row md:items-stretch md:gap-10">
+            {/* Photo */}
+            <div className="shrink-0 w-full max-w-[280px] md:w-[280px]">
+              <div className="h-full overflow-hidden rounded-xl border border-gold/30">
+                <img
+                  src="/images/ketan-shukla.jpeg"
+                  alt="Ketan Shukla"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
 
             {/* Content */}
-            <div className="flex-1 text-center sm:text-left space-y-4">
+            <div className="flex-1 flex flex-col justify-center text-center md:text-left space-y-4">
               <p className="text-base leading-relaxed text-foreground/75 sm:text-lg">
-                Ketan Shukla is a writer, thinker, and lifelong practitioner who
-                believes that mastery is not a gift reserved for the few but a
-                process available to everyone.
-              </p>
-
-              <p className="text-base leading-relaxed text-foreground/75 sm:text-lg">
-                His work bridges the gap between scientific research and
-                practical application, translating complex neuroscience and
-                psychology into actionable strategies that anyone can use to
-                transform their abilities and their lives.
+                Ketan Shukla is a writer and lifelong learner with a deep
+                passion for critical thinking, rational analysis, and
+                evidence-based understanding. His curiosity spans philosophy,
+                the experience of life, and the quiet discipline of mastering a
+                craft through sustained effort.
               </p>
 
               <p className="text-base leading-relaxed text-foreground/75 sm:text-lg">
@@ -52,13 +51,19 @@ export default function AuthorSection() {
                   Repetition: Mother of Mastery
                 </em>{" "}
                 series is the culmination of years of research, practice, and
-                personal experience — a comprehensive guide to the science,
-                habits, techniques, and philosophy of mastery through
-                repetition.
+                personal experience — an exploration of how ordinary repetition,
+                guided by intention and reflection, becomes the foundation of
+                extraordinary ability.
+              </p>
+
+              <p className="text-base leading-relaxed text-foreground/75 sm:text-lg">
+                When he is not writing or lost in a book, you will likely find
+                him at the snooker table — another pursuit where patience,
+                precision, and repetition quietly reveal their rewards.
               </p>
 
               {/* Stats */}
-              <div className="flex flex-wrap justify-center gap-3 pt-2 sm:justify-start">
+              <div className="flex flex-wrap justify-center gap-3 pt-2 md:justify-start">
                 <div className="flex items-center gap-2 rounded-lg border border-gold/20 bg-gold/5 px-4 py-2">
                   <BookOpen className="h-4 w-4 text-gold" />
                   <span className="text-xs font-medium text-foreground/70 sm:text-sm">
