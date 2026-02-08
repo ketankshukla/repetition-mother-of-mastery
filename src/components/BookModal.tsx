@@ -9,7 +9,6 @@ import {
   ArrowLeft,
   ArrowRight,
   ShoppingCart,
-  Play,
 } from "lucide-react";
 import { books } from "@/data/books";
 import { useBook } from "@/context/BookContext";
@@ -97,46 +96,15 @@ export default function BookModal() {
               </p>
             </div>
 
-            {/* Book Cover and Video */}
-            <div className="mb-12 flex flex-row items-stretch justify-center gap-3 sm:gap-6">
-              <div className="w-1/2 max-w-[260px]">
-                <div className="h-full overflow-hidden rounded-xl border border-gold/30 shadow-gold-lg">
-                  <img
-                    src={book.coverImage}
-                    alt={`${book.title} - Book Cover`}
-                    className="block w-full h-full object-cover"
-                  />
-                </div>
+            {/* Book Cover */}
+            <div className="mb-12 mx-auto max-w-2xl">
+              <div className="overflow-hidden rounded-xl border border-gold/30 shadow-gold-lg">
+                <img
+                  src={book.coverImage}
+                  alt={`${book.title} - Book Cover`}
+                  className="block w-full h-auto"
+                />
               </div>
-
-              <div className="w-1/2 max-w-[260px]">
-                <div className="h-full overflow-hidden rounded-xl border border-gold/20 bg-navy-light/30 flex flex-col items-center justify-center">
-                  <div className="relative">
-                    <div className="h-14 w-14 rounded-full border-2 border-gold/40 bg-gold/10 flex items-center justify-center">
-                      <Play className="h-5 w-5 text-gold ml-0.5" />
-                    </div>
-                  </div>
-                  <div className="mt-4 text-center px-4">
-                    <p className="font-serif text-sm font-semibold text-cream">
-                      Video Coming Soon
-                    </p>
-                    <p className="mt-1 text-xs text-foreground/50">
-                      About {book.title}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Amazon CTA */}
-            <div className="mb-12 text-center">
-              <a
-                href="#"
-                className="btn-amazon inline-flex items-center gap-2 text-sm sm:text-base"
-              >
-                <ShoppingCart className="h-4 w-4" />
-                Buy on Amazon
-              </a>
             </div>
 
             {/* Divider */}
@@ -214,8 +182,26 @@ export default function BookModal() {
               </div>
             </div>
 
+            {/* Buy Buttons */}
+            <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center sm:gap-6 border-t border-gold/10 pt-8">
+              <a
+                href="#"
+                className="btn-amazon inline-flex items-center gap-3 text-sm sm:text-base tracking-wide whitespace-nowrap"
+              >
+                <ShoppingCart className="h-4 w-4 sm:h-5 sm:w-5" />
+                Buy This Book on Amazon
+              </a>
+              <a
+                href="#"
+                className="btn-amazon inline-flex items-center gap-3 text-sm sm:text-base tracking-wide whitespace-nowrap"
+              >
+                <ShoppingCart className="h-4 w-4 sm:h-5 sm:w-5" />
+                Buy The Series on Amazon
+              </a>
+            </div>
+
             {/* Navigation */}
-            <div className="flex justify-between items-center border-t border-gold/10 pt-6">
+            <div className="flex justify-between items-center pt-6">
               {selectedBookIndex > 0 ? (
                 <button
                   onClick={goToPrevBook}
