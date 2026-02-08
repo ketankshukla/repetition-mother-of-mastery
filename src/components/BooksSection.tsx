@@ -69,9 +69,9 @@ export default function BooksSection() {
                 <div className="mt-auto flex flex-col gap-2">
                   <a
                     href="#"
-                    className="btn-amazon flex items-center justify-center gap-1.5 text-xs sm:text-sm py-2 px-3"
+                    className="btn-amazon flex items-center justify-center gap-1.5 text-xs sm:text-sm py-2 px-3 whitespace-nowrap"
                   >
-                    <ShoppingCart className="h-3.5 w-3.5" />
+                    <ShoppingCart className="h-3.5 w-3.5 shrink-0" />
                     Buy on Amazon
                   </a>
                   <Link

@@ -47,23 +47,7 @@ export default function Hero() {
           </span>
         </h1>
 
-        {/* Ornamental Divider */}
-        <div className="flex items-center justify-center gap-3 mb-2">
-          <div className="h-px w-16 sm:w-24 bg-gradient-to-r from-transparent to-gold/60" />
-          <span className="text-gold/60 text-lg">&#10022;</span>
-          <div className="h-px w-16 sm:w-24 bg-gradient-to-l from-transparent to-gold/60" />
-        </div>
-
-        <h2 className="mb-6 font-serif text-lg tracking-[0.25em] uppercase text-gold/70 sm:text-xl lg:text-2xl italic font-normal">
-          Mother of Mastery
-        </h2>
-
-        <p className="mx-auto max-w-2xl text-base leading-relaxed text-foreground/70 sm:text-lg mb-2">
-          Five books. Fifty chapters. One transformative journey from the
-          neuroscience of repetition to the mastery of life.
-        </p>
-
-        <p className="font-serif text-sm tracking-[0.3em] uppercase text-gold/60 mb-10 sm:text-base">
+        <p className="font-serif text-xl tracking-[0.3em] uppercase text-gold/70 mb-10 sm:text-3xl lg:text-4xl">
           by Ketan Shukla
         </p>
 
@@ -113,46 +97,6 @@ export default function Hero() {
             >
               <ChevronRight className="h-5 w-5" />
             </button>
-          </div>
-
-          {/* Carousel Dots */}
-          <div className="mt-4 flex items-center justify-center gap-2">
-            {coverImages.map((_, i) => (
-              <button
-                key={i}
-                onClick={() => setCurrentSlide(i)}
-                className={`h-2 rounded-full transition-all duration-300 ${
-                  i === currentSlide
-                    ? "w-8 bg-gold"
-                    : "w-2 bg-gold/30 hover:bg-gold/50"
-                }`}
-                aria-label={`Go to book ${i + 1}`}
-              />
-            ))}
-          </div>
-        </div>
-
-        {/* Book Number Tabs — navigate carousel only */}
-        <div className="mb-10">
-          <div className="grid grid-cols-5 gap-2 sm:gap-3 mx-auto max-w-2xl">
-            {books.map((book, index) => (
-              <button
-                key={book.id}
-                onClick={() => setCurrentSlide(index)}
-                className={`group relative flex flex-col items-center gap-1 rounded-xl border px-2 py-3 sm:px-4 sm:py-4 text-center transition-all duration-300 hover:scale-105 ${
-                  index === currentSlide
-                    ? "border-gold/60 bg-gold/15 shadow-gold"
-                    : "border-gold/20 bg-gold/5 hover:border-gold/40 hover:bg-gold/10"
-                }`}
-              >
-                <span className="font-serif text-xs font-bold text-gold sm:text-sm">
-                  {book.roman}
-                </span>
-                <span className="hidden sm:block text-[10px] leading-tight text-foreground/60 group-hover:text-foreground/80">
-                  {book.title}
-                </span>
-              </button>
-            ))}
           </div>
         </div>
 
