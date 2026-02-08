@@ -95,7 +95,10 @@ export default function Hero() {
 
           {/* Series Video */}
           <div className="w-1/2 max-w-[300px]">
-            <YouTubePlayer videoId="AMIjwC-PQiU" />
+            <YouTubePlayer
+              videoId="AMIjwC-PQiU"
+              thumbnail="/images/youtube-thumbnail.png"
+            />
           </div>
         </div>
 

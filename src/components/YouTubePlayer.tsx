@@ -5,6 +5,7 @@ import { Play, Pause } from "lucide-react";
 
 interface YouTubePlayerProps {
   videoId: string;
+  thumbnail?: string;
 }
 
 declare global {
@@ -14,12 +15,16 @@ declare global {
   }
 }
 
-export default function YouTubePlayer({ videoId }: YouTubePlayerProps) {
+export default function YouTubePlayer({
+  videoId,
+  thumbnail,
+}: YouTubePlayerProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const playerRef = useRef<YT.Player | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isReady, setIsReady] = useState(false);
   const [showButton, setShowButton] = useState(true);
+  const [hasStarted, setHasStarted] = useState(false);
   const hideTimerRef = useRef<NodeJS.Timeout | null>(null);
 
   const initPlayer = useCallback(() => {
@@ -46,6 +51,7 @@ export default function YouTubePlayer({ videoId }: YouTubePlayerProps) {
         onStateChange: (e: YT.OnStateChangeEvent) => {
           if (e.data === window.YT.PlayerState.PLAYING) {
             setIsPlaying(true);
+            setHasStarted(true);
           } else if (
             e.data === window.YT.PlayerState.PAUSED ||
             e.data === window.YT.PlayerState.ENDED
@@ -125,6 +131,17 @@ export default function YouTubePlayer({ videoId }: YouTubePlayerProps) {
         ref={containerRef}
         className="absolute inset-0 [&>div]:!w-full [&>div]:!h-full [&>iframe]:!w-full [&>iframe]:!h-full"
       />
+
+      {/* Thumbnail overlay — shown until first play */}
+      {thumbnail && !hasStarted && (
+        <div className="absolute inset-0 z-[5]">
+          <img
+            src={thumbnail}
+            alt="Video thumbnail"
+            className="w-full h-full object-cover"
+          />
+        </div>
+      )}
 
       {/* Clickable overlay for play/pause */}
       <div
