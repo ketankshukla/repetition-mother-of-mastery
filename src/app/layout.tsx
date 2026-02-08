@@ -27,6 +27,9 @@ export const metadata: Metadata = {
     "book series",
     "Ketan Shukla",
   ],
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({

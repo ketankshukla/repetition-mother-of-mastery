@@ -6,11 +6,11 @@ import Link from "next/link";
 import { books } from "@/data/books";
 
 const coverImages = [
-  "/book-covers/book1-cover.png",
-  "/book-covers/book2-cover.png",
-  "/book-covers/book3-cover.png",
-  "/book-covers/book4-cover.png",
-  "/book-covers/book5-cover.png",
+  "/images/book1-cover.png",
+  "/images/book2-cover.png",
+  "/images/book3-cover.png",
+  "/images/book4-cover.png",
+  "/images/book5-cover.png",
 ];
 
 export default function Hero() {
