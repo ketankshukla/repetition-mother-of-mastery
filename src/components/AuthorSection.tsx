@@ -4,10 +4,7 @@ import { Pen, BookOpen, Target, Heart } from "lucide-react";
 
 export default function AuthorSection() {
   return (
-    <section
-      id="author"
-      className="relative px-4 py-20 sm:py-28 sm:px-6 lg:px-8 overflow-hidden"
-    >
+    <section className="relative px-4 py-20 sm:py-28 sm:px-6 lg:px-8 overflow-hidden">
       <div className="relative z-10 mx-auto max-w-4xl">
         {/* Header */}
         <div className="mb-12 text-center">

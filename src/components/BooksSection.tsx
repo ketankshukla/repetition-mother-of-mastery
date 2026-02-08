@@ -1,5 +1,6 @@
 "use client";
 
+import { ShoppingCart, BookOpen } from "lucide-react";
 import { books } from "@/data/books";
 import Link from "next/link";
 
@@ -13,10 +14,7 @@ const coverImages = [
 
 export default function BooksSection() {
   return (
-    <section
-      id="books"
-      className="relative px-4 py-20 sm:py-28 sm:px-6 lg:px-8 overflow-hidden"
-    >
+    <section className="relative px-4 py-20 sm:py-28 sm:px-6 lg:px-8 overflow-hidden">
       <div className="relative z-10 mx-auto max-w-6xl">
         {/* Section Header */}
         <div className="mb-16 text-center">
@@ -37,37 +35,55 @@ export default function BooksSection() {
           </p>
         </div>
 
-        {/* Books Grid — Cover + Info Cards */}
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-5">
+        {/* Books Grid */}
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-5">
           {books.map((book, index) => (
-            <Link
+            <div
               key={book.id}
-              href={`/book-${book.id}`}
-              className="group flex flex-col overflow-hidden rounded-xl border border-gold/20 bg-navy-light/40 transition-all duration-300 hover:border-gold/50 hover:shadow-gold-lg hover:scale-[1.03]"
+              className="flex flex-col overflow-hidden rounded-xl border border-gold/20 bg-navy-light/40"
             >
-              {/* Cover Image */}
-              <div className="relative aspect-[2/3] overflow-hidden">
-                <img
-                  src={coverImages[index]}
-                  alt={book.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              </div>
+              {/* Cover Image — clickable to book page */}
+              <Link href={`/book-${book.id}`} className="group">
+                <div className="relative aspect-[2/3] overflow-hidden">
+                  <img
+                    src={coverImages[index]}
+                    alt={book.title}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+              </Link>
 
-              {/* Card Info */}
-              <div className="flex flex-col flex-1 p-4">
+              {/* Card Info + Buttons */}
+              <div className="flex flex-col flex-1 p-3 sm:p-4">
                 <p className="font-serif text-xs tracking-[0.25em] uppercase text-gold/60 mb-1">
                   Book {book.roman}
                 </p>
-                <h3 className="font-serif text-base font-bold text-cream group-hover:text-gold transition-colors mb-1">
+                <h3 className="font-serif text-sm font-bold text-cream mb-1 sm:text-base">
                   {book.title}
                 </h3>
-                <p className="text-xs text-foreground/50 italic leading-relaxed">
+                <p className="text-xs text-foreground/50 italic leading-relaxed mb-3">
                   {book.subtitle}
                 </p>
+
+                {/* Buttons */}
+                <div className="mt-auto flex flex-col gap-2">
+                  <a
+                    href="#"
+                    className="btn-amazon flex items-center justify-center gap-1.5 text-xs sm:text-sm py-2 px-3"
+                  >
+                    <ShoppingCart className="h-3.5 w-3.5" />
+                    Buy on Amazon
+                  </a>
+                  <Link
+                    href={`/book-${book.id}`}
+                    className="flex items-center justify-center gap-1.5 rounded-full border border-gold/30 bg-gold/5 px-3 py-2 text-xs sm:text-sm font-medium text-gold transition-all hover:border-gold/60 hover:bg-gold/10"
+                  >
+                    <BookOpen className="h-3.5 w-3.5" />
+                    Book Details
+                  </Link>
+                </div>
               </div>
-            </Link>
+            </div>
           ))}
         </div>
       </div>
