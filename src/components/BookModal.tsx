@@ -15,7 +15,8 @@ import { books } from "@/data/books";
 import { useBook } from "@/context/BookContext";
 
 export default function BookModal() {
-  const { selectedBookIndex, closeBook, goToNextBook, goToPrevBook } = useBook();
+  const { selectedBookIndex, closeBook, goToNextBook, goToPrevBook } =
+    useBook();
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -48,7 +49,7 @@ export default function BookModal() {
       {/* Modal Content */}
       <div
         ref={scrollRef}
-        className="relative z-10 w-full h-full overflow-y-auto bg-navy-dark"
+        className="relative z-10 w-full h-full overflow-y-auto bg-black"
       >
         {/* Header Bar */}
         <div className="sticky top-0 z-20 glass-dark border-b border-gold/20">
@@ -97,19 +98,19 @@ export default function BookModal() {
             </div>
 
             {/* Book Cover and Video */}
-            <div className="mb-12 flex flex-col items-center gap-6 sm:flex-row sm:justify-center sm:items-stretch">
-              <div className="w-full max-w-[240px] sm:max-w-[260px]">
-                <div className="overflow-hidden rounded-xl border border-gold/30 shadow-gold-lg">
+            <div className="mb-12 flex flex-row items-stretch justify-center gap-3 sm:gap-6">
+              <div className="w-1/2 max-w-[260px]">
+                <div className="h-full overflow-hidden rounded-xl border border-gold/30 shadow-gold-lg">
                   <img
                     src={book.coverImage}
                     alt={`${book.title} - Book Cover`}
-                    className="block w-full h-auto"
+                    className="block w-full h-full object-cover"
                   />
                 </div>
               </div>
 
-              <div className="w-full max-w-[240px] sm:max-w-[260px]">
-                <div className="h-full overflow-hidden rounded-xl border border-gold/20 bg-navy-light/30 flex flex-col items-center justify-center min-h-[360px]">
+              <div className="w-1/2 max-w-[260px]">
+                <div className="h-full overflow-hidden rounded-xl border border-gold/20 bg-navy-light/30 flex flex-col items-center justify-center">
                   <div className="relative">
                     <div className="h-14 w-14 rounded-full border-2 border-gold/40 bg-gold/10 flex items-center justify-center">
                       <Play className="h-5 w-5 text-gold ml-0.5" />

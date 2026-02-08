@@ -10,7 +10,7 @@ import { BookProvider } from "@/context/BookContext";
 export default function Home() {
   return (
     <BookProvider>
-      <div className="min-h-screen bg-navy-dark text-foreground">
+      <div className="min-h-screen bg-black text-foreground">
         <main className="relative">
           <Hero />
           <BooksSection />
