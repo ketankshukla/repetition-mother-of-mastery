@@ -2,18 +2,11 @@
 
 import { useState, useEffect } from "react";
 import { ArrowUp } from "lucide-react";
-import Link from "next/link";
-
-const bookTitles = [
-  "The Foundation of Mastery",
-  "The Habit Engine",
-  "Mastery in Action",
-  "The Cognitive Edge",
-  "Living Mastery",
-];
-const romans = ["I", "II", "III", "IV", "V"];
+import { books } from "@/data/books";
+import { useBook } from "@/context/BookContext";
 
 export default function Footer() {
+  const { openBook } = useBook();
   const [showScrollTop, setShowScrollTop] = useState(false);
 
   useEffect(() => {
@@ -44,17 +37,17 @@ export default function Footer() {
 
             {/* Book Links */}
             <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">
-              {bookTitles.map((title, i) => (
-                <Link
+              {books.map((book, i) => (
+                <button
                   key={i}
-                  href={`/book-${i + 1}`}
+                  onClick={() => openBook(i)}
                   className="text-xs text-foreground/40 hover:text-gold transition-colors"
                 >
                   <span className="text-gold/50 font-medium">
-                    Book {romans[i]}:
+                    Book {book.roman}:
                   </span>{" "}
-                  {title}
-                </Link>
+                  {book.title}
+                </button>
               ))}
             </div>
 

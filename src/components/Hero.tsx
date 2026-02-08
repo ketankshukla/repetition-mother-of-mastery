@@ -2,18 +2,11 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { ChevronLeft, ChevronRight, ShoppingCart } from "lucide-react";
-import Link from "next/link";
 import { books } from "@/data/books";
-
-const coverImages = [
-  "/images/book1-cover.png",
-  "/images/book2-cover.png",
-  "/images/book3-cover.png",
-  "/images/book4-cover.png",
-  "/images/book5-cover.png",
-];
+import { useBook } from "@/context/BookContext";
 
 export default function Hero() {
+  const { openBook } = useBook();
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
 
@@ -58,22 +51,22 @@ export default function Hero() {
           onMouseLeave={() => setIsPaused(false)}
         >
           <div className="relative overflow-hidden rounded-2xl border border-gold/30 shadow-gold-lg aspect-[2/3]">
-            {coverImages.map((src, i) => (
-              <Link
+            {books.map((book, i) => (
+              <button
                 key={i}
-                href={`/book-${i + 1}`}
-                className={`absolute inset-0 transition-all duration-700 ease-in-out ${
+                onClick={() => openBook(i)}
+                className={`absolute inset-0 w-full h-full transition-all duration-700 ease-in-out cursor-pointer ${
                   i === currentSlide
                     ? "opacity-100 scale-100 z-10"
                     : "opacity-0 scale-105 z-0 pointer-events-none"
                 }`}
               >
                 <img
-                  src={src}
-                  alt={`${books[i].title} — Book Cover`}
+                  src={book.coverImage}
+                  alt={`${book.title} — Book Cover`}
                   className="w-full h-full object-cover"
                 />
-              </Link>
+              </button>
             ))}
 
             {/* Nav Arrows */}

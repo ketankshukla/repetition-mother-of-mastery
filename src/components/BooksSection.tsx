@@ -2,17 +2,11 @@
 
 import { ShoppingCart, BookOpen } from "lucide-react";
 import { books } from "@/data/books";
-import Link from "next/link";
-
-const coverImages = [
-  "/images/book1-cover.png",
-  "/images/book2-cover.png",
-  "/images/book3-cover.png",
-  "/images/book4-cover.png",
-  "/images/book5-cover.png",
-];
+import { useBook } from "@/context/BookContext";
 
 export default function BooksSection() {
+  const { openBook } = useBook();
+
   return (
     <section className="relative px-4 py-20 sm:py-28 sm:px-6 lg:px-8 overflow-hidden">
       <div className="relative z-10 mx-auto max-w-6xl">
@@ -42,16 +36,19 @@ export default function BooksSection() {
               key={book.id}
               className="flex flex-col overflow-hidden rounded-xl border border-gold/20 bg-navy-light/40"
             >
-              {/* Cover Image — clickable to book page */}
-              <Link href={`/book-${book.id}`} className="group">
+              {/* Cover Image — clickable to open book details */}
+              <button
+                onClick={() => openBook(index)}
+                className="group text-left"
+              >
                 <div className="relative aspect-[2/3] overflow-hidden">
                   <img
-                    src={coverImages[index]}
+                    src={book.coverImage}
                     alt={book.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
-              </Link>
+              </button>
 
               {/* Card Info + Buttons */}
               <div className="flex flex-col flex-1 p-3 sm:p-4">
@@ -74,13 +71,13 @@ export default function BooksSection() {
                     <ShoppingCart className="h-3.5 w-3.5 shrink-0" />
                     Buy on Amazon
                   </a>
-                  <Link
-                    href={`/book-${book.id}`}
+                  <button
+                    onClick={() => openBook(index)}
                     className="flex items-center justify-center gap-1.5 rounded-full border border-gold/30 bg-gold/5 px-3 py-2 text-xs sm:text-sm font-medium text-gold transition-all hover:border-gold/60 hover:bg-gold/10"
                   >
                     <BookOpen className="h-3.5 w-3.5" />
                     Book Details
-                  </Link>
+                  </button>
                 </div>
               </div>
             </div>
