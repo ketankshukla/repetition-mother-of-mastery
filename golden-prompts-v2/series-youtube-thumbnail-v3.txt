@@ -38,7 +38,7 @@ Line 5 (exactly 22% from top, centered): "KETAN SHUKLA" — large Garamond font,
 
 Decorative ornamental line (exactly 24% from top): An identical golden ornamental filigree divider matching the one above — same scrollwork, same flourishes, same symmetrical design.
 
-Line 6 (exactly 35% from top, centered horizontally): "WATCH THE VIDEO" — very large, bold, uppercase white letters (#FFFFFF), Garamond font, letter-spacing 0.15em. This text must be rendered prominently and be highly readable. It should be positioned clearly ABOVE the center of the image so that it does not overlap with the play button that will be placed at the exact center (50%) of the image by the video player. The text should have a very subtle dark drop shadow to ensure legibility against the background.
+Line 6 (exactly 27% from top, centered horizontally): "WATCH THE VIDEO" — very large, bold, uppercase white letters (#FFFFFF), Garamond font, letter-spacing 0.15em. This text must be rendered prominently and be highly readable, positioned immediately below the author name and the decorative ornamental line. It should be positioned clearly ABOVE the center of the image so that it does not overlap with the play button that will be placed at the exact center (50%) of the image by the video player. The text should have a very subtle dark drop shadow to ensure legibility against the background.
 
 IMPORTANT — NO other text should appear anywhere else in the image. Do not add "Book I," "Book II," or any other labels. The bottom of the image must be completely free of text. The exact center of the image (45-55% zone) must be completely free of text to leave room for the play button overlay. The image must remain clean and uncluttered for maximum thumbnail impact.
 
