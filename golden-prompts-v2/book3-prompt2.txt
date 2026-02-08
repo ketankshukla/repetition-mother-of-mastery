@@ -1,0 +1,32 @@
+A stunning 9:16 portrait book cover rendered in ultra-high-resolution photorealistic style with cinematic color grading.
+
+SUBJECT — CLOSE-UP PORTRAIT:
+A breathtakingly beautiful young white woman in her 20s, positioned in the lower-center of the image (her face centered around 65-75% down from the top, centered horizontally). She is captured in a straight-on close-up portrait, looking directly at the camera with a dreamy, inspired smile — the deep reverence of someone who understands that genius is not born but built through thousands of hours of repeated creative practice. Both hands are raised to shoulder level, fingers slightly spread, with traces of golden paint glistening on her fingertips — the hands of a creator, an artist, someone who has practiced her craft so many times that the paint has become part of her. Her face is captured with hyper-real detail — flawless yet entirely natural skin with visible pores across her nose and cheeks, a scattering of pale golden freckles across the bridge of her nose, the faintest hint of peach fuzz along her jawline caught by the light. Her eyebrows are full, naturally shaped, with individual hairs visible and slightly feathered at the inner corners. Her eyes are wide open and luminous, looking directly into the viewer's soul — large, bright amber-brown irises with golden striations radiating outward from the pupil like rings of a tree, each striation a slightly different shade of honey and bronze. Natural catchlights — two sharp, luminous reflections — sit in the upper portion of each iris, giving her eyes a deep, glistening, almost supernatural clarity. Her lashes are thick and dark, naturally fanned, each individually visible. Her lips are soft, naturally pink, curved in a warm, inviting smile of creative wonder. She is stunningly gorgeous yet radiates simplicity and humility — no vanity, only quiet strength and earned character. Her skin is bathed in warm golden light from above, creating luminous highlights on her forehead, the bridge of her nose, and her cheekbones, while soft shadows pool beneath her cheekbones and along the sides of her jaw. Every micro-detail is rendered — a tiny beauty mark near her left eyebrow, an almost invisible scar on her chin that speaks of a life lived fully, the way individual strands of her long auburn-brown hair catch the golden light like filaments of spun gold.
+
+CRITICAL COMPOSITION RULE — FACE PLACEMENT:
+The woman's face must be positioned entirely BELOW the subtitle text area and ABOVE the author name. Her face occupies roughly the 55%-82% vertical zone of the image. The top 45% of the image (where the title and subtitle text will be placed) must contain ONLY the background elements and open space — absolutely NO part of her face, hair, or hand may enter the top 35% of the image. This ensures the title text zone is completely clear of the portrait.
+
+BACKGROUND — THE CANVAS OF CREATIVE MASTERY:
+Behind her and slightly out of focus, the background depicts a magnificent explosion of artistic creation — a visual metaphor for how repetitive practice fuels artistic genius. The upper two-thirds of the image is filled with an extraordinary cascade of golden brushstrokes — hundreds of identical brushstrokes sweeping across the frame in repeating arcs, each stroke the same width, the same curve, the same golden hue, layered upon one another in dense, rhythmic patterns. The strokes begin thin and tentative at the edges, growing bolder and more luminous toward the center — visualizing the journey from first attempt to masterful fluency. Emerging from this golden storm, recognizable artistic forms take shape: the faint outline of a violin rendered entirely from parallel golden lines, musical notes floating among the brushstrokes in repeating sequences. Fragments of written text in golden script swirl through the composition — the same word repeated dozens of times, growing more refined with each repetition. A golden palette and brushes float near the top, surrounded by droplets of golden paint frozen in mid-air, each droplet a perfect sphere, each one identical. The deep black background provides dramatic contrast, with subtle warm amber and rose atmospheric haze. Volumetric golden light streams from the upper left, illuminating the creative explosion like stage lighting.
+
+TEXT — MUST BE RENDERED EXACTLY AS SPECIFIED WITH UNIFORM PLACEMENT. DO NOT ALTER IN ANY WAY:
+
+All text placement percentages below are measured from the TOP of the image and must be followed precisely to ensure uniform placement across all covers in the series.
+
+Line 1 (exactly 3% from top): "THE REPETITION SERIES" — small elegant Garamond font, centered horizontally, gold color (#D4A843), letter-spacing 0.15em, approximately 14pt equivalent.
+
+Line 2 (exactly 6% from top): "BOOK III" — Garamond font, centered, gold color (#D4A843), letter-spacing 0.2em, approximately 12pt equivalent. Flanked on the left and right by thin horizontal gold lines extending outward from the text.
+
+Lines 3-4 (title block, exactly 10-22% from top): "MASTERY IN ACTION" — large, elegant Garamond font, centered, white/cream with subtle gold warmth. "IN" is rendered noticeably smaller than "MASTERY" and "ACTION." "MASTERY" is the largest word. Arranged as:
+Line 3: "MASTERY IN"
+Line 4: "ACTION"
+
+Decorative ornamental line (exactly 24% from top): An elegant golden ornamental filigree divider — a thin horizontal line that blooms into delicate curving scrollwork and flourishes at the center, with symmetrical ornamental curls tapering to fine points at each end. Rendered in warm gold (#D4A843) with subtle luminous glow. This line appears ABOVE the subtitle.
+
+Line 5 (exactly 26% from top): "Sports, Arts, and Language" — smaller italic Garamond, centered, light gray/cream color.
+
+Decorative ornamental line (exactly 28% from top): An identical golden ornamental filigree divider matching the one above — same scrollwork, same flourishes, same symmetrical design. This line appears BELOW the subtitle.
+
+Line 6 (exactly 92% from top): "KETAN SHUKLA" — large Garamond font, centered, white/cream, generous letter-spacing approximately 0.2em.
+
+OVERALL MOOD: Cinematic, creatively explosive, warm golden tones against deep darkness. The feeling of witnessing the moment when thousands of hours of creative repetition coalesce into artistic genius — when practice becomes art, when repetition becomes beauty. Photorealistic, editorial quality, suitable for a bestselling non-fiction book cover.

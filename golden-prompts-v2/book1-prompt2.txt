@@ -1,0 +1,32 @@
+A stunning 9:16 portrait book cover rendered in ultra-high-resolution photorealistic style with cinematic color grading.
+
+SUBJECT — CLOSE-UP PORTRAIT:
+A breathtakingly beautiful young white woman in her 20s, positioned in the lower-center of the image (her face centered around 65-75% down from the top, centered horizontally). She is captured in a straight-on close-up portrait, facing directly toward the camera. Her eyes are peacefully closed, lashes resting against her cheeks, her expression one of deep meditative calm — as if she is feeling the myelin wrapping around her neural pathways in real time, savoring the biological miracle of skill being built through repetition. A soft, knowing smile plays on her lips. Her face is captured with hyper-real detail — flawless yet entirely natural skin with visible pores across her nose and cheeks, a scattering of pale golden freckles across the bridge of her nose, the faintest hint of peach fuzz along her jawline caught by the light. Her eyebrows are full, naturally shaped, with individual hairs visible and slightly feathered at the inner corners. Her lashes are thick and dark, naturally fanned, each individually visible, resting beautifully against her skin. Her lips are soft, naturally pink, curved in a serene, inward smile of someone who has found peace in the process of practice itself. She is stunningly gorgeous yet radiates simplicity and humility — no vanity, only quiet strength and earned character. Her skin is bathed in warm golden light from directly above, creating luminous highlights on her forehead, the bridge of her nose, and her cheekbones, while soft shadows pool beneath her cheekbones and along the sides of her jaw. Every micro-detail is rendered — a tiny beauty mark near her left eyebrow, an almost invisible scar on her chin that speaks of a life lived fully, the way individual strands of her long auburn-brown hair catch the golden light like filaments of spun gold. Both hands are pressed together at her chest in a gesture of gratitude and inner peace, fingers interlaced.
+
+CRITICAL COMPOSITION RULE — FACE PLACEMENT:
+The woman's face must be positioned entirely BELOW the subtitle text area and ABOVE the author name. Her face occupies roughly the 55%-82% vertical zone of the image. The top 45% of the image (where the title and subtitle text will be placed) must contain ONLY the background elements and open space — absolutely NO part of her face, hair, or hand may enter the top 35% of the image. This ensures the title text zone is completely clear of the portrait.
+
+BACKGROUND — MYELIN HIGHWAY:
+Behind her and slightly out of focus, the background depicts a breathtaking visualization of myelination — the biological process of building skill. Thousands of parallel axon fibers stretch vertically from the bottom of the image upward into infinity, each one sheathed in perfectly uniform segments of translucent golden myelin — identical capsule shapes repeating along every fiber in perfect spacing, like golden pearls strung on infinite threads. The myelin sheaths glow with warm internal bioluminescence, each segment radiating the same soft amber light. Between the sheaths, the Nodes of Ranvier appear as tiny gaps where electrical signals leap — depicted as bright white-gold sparks jumping from node to node in rapid succession, the same spark pattern repeating endlessly along every fiber. The axon fibers converge and diverge like the strings of a vast cosmic harp. Scattered among the fibers, cross-sectional views of individual axons reveal concentric rings of myelin wrapping — perfect golden spirals, each wrap identical to the last. The entire scene is bathed in deep navy-black darkness with warm golden volumetric light streaming from above. Tiny floating golden particles drift through the scene like neurons in suspension.
+
+TEXT — MUST BE RENDERED EXACTLY AS SPECIFIED WITH UNIFORM PLACEMENT. DO NOT ALTER IN ANY WAY:
+
+All text placement percentages below are measured from the TOP of the image and must be followed precisely to ensure uniform placement across all covers in the series.
+
+Line 1 (exactly 3% from top): "THE REPETITION SERIES" — small elegant Garamond font, centered horizontally, gold color (#D4A843), letter-spacing 0.15em, approximately 14pt equivalent.
+
+Line 2 (exactly 6% from top): "BOOK I" — Garamond font, centered, gold color (#D4A843), letter-spacing 0.2em, approximately 12pt equivalent. Flanked on the left and right by thin horizontal gold lines extending outward from the text.
+
+Lines 3-4 (title block, exactly 10-22% from top): "THE FOUNDATION OF MASTERY" — large, elegant Garamond font, centered, white/cream with subtle gold warmth. "THE" and "OF" are rendered noticeably smaller than "FOUNDATION" and "MASTERY." "MASTERY" is the largest word. Arranged as:
+Line 3: "THE FOUNDATION"
+Line 4: "OF MASTERY"
+
+Decorative ornamental line (exactly 24% from top): An elegant golden ornamental filigree divider — a thin horizontal line that blooms into delicate curving scrollwork and flourishes at the center, with symmetrical ornamental curls tapering to fine points at each end. Rendered in warm gold (#D4A843) with subtle luminous glow. This line appears ABOVE the subtitle.
+
+Line 5 (exactly 26% from top): "The Science and Psychology of Repetition" — smaller italic Garamond, centered, light gray/cream color.
+
+Decorative ornamental line (exactly 28% from top): An identical golden ornamental filigree divider matching the one above — same scrollwork, same flourishes, same symmetrical design. This line appears BELOW the subtitle.
+
+Line 6 (exactly 92% from top): "KETAN SHUKLA" — large Garamond font, centered, white/cream, generous letter-spacing approximately 0.2em.
+
+OVERALL MOOD: Cinematic, meditative, warm golden tones against deep darkness. The feeling of inner stillness while the brain performs its biological miracle — wrapping each neural fiber in gold, building skill and mastery one repetition at a time. Photorealistic, editorial quality, suitable for a bestselling non-fiction book cover.

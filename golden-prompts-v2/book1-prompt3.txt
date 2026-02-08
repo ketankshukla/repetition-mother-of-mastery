@@ -1,0 +1,32 @@
+A stunning 9:16 portrait book cover rendered in ultra-high-resolution photorealistic style with cinematic color grading.
+
+SUBJECT — CLOSE-UP PORTRAIT:
+A breathtakingly beautiful young white woman in her 20s, positioned in the lower-left quadrant of the image (her face centered around 65-75% down from the top, offset slightly left of center). She is captured in a profile close-up, facing to the left, showing the elegant line of her jaw, nose, and brow from the side. A serene, contemplative smile graces her lips — the expression of someone who has just grasped that neuroplasticity means the brain never stops growing, that mastery is available at any age. Her left hand gently touches her temple, fingertips resting lightly against her skin as if feeling the neural connections forming within. Her face is captured with hyper-real detail — flawless yet entirely natural skin with visible pores across her nose and cheeks, a scattering of pale golden freckles across the bridge of her nose, the faintest hint of peach fuzz along her jawline caught by the light. Her eyebrows are full, naturally shaped, with individual hairs visible and slightly feathered at the inner corners. Her visible eye is open and radiant — a large, bright amber-brown iris with golden striations radiating outward from the pupil like rings of a tree, each striation a slightly different shade of honey and bronze. A natural catchlight — sharp and luminous — sits in the upper portion of the iris, giving it a deep, glistening clarity. Her lashes are thick and dark, naturally fanned, each individually visible. Her lips are soft, naturally pink, curved in quiet contemplation. She is stunningly gorgeous yet radiates simplicity and humility — no vanity, only quiet strength and earned character. Her skin is bathed in warm golden light from the right side, creating luminous highlights on her cheekbone, the bridge of her nose, and her brow, while soft shadows define the contours of her profile. Every micro-detail is rendered — a tiny beauty mark near her left eyebrow, the way individual strands of her long auburn-brown hair fall behind her ear and catch the golden light like filaments of spun gold.
+
+CRITICAL COMPOSITION RULE — FACE PLACEMENT:
+The woman's face must be positioned entirely BELOW the subtitle text area and ABOVE the author name. Her face occupies roughly the 55%-82% vertical zone of the image. The top 45% of the image (where the title and subtitle text will be placed) must contain ONLY the background elements and open space — absolutely NO part of her face, hair, or hand may enter the top 35% of the image. This ensures the title text zone is completely clear of the portrait.
+
+BACKGROUND — NEUROPLASTICITY LANDSCAPE:
+Behind her and slightly out of focus, the background depicts an awe-inspiring visualization of neuroplasticity — the brain's infinite capacity to rewire itself. A vast, luminous neural network stretches across the entire background, rendered as thousands of interconnected golden nodes — each node a tiny glowing sphere of warm amber light connected to its neighbors by fine golden filaments. The network is alive and actively growing: at dozens of points, new connections are visibly forming — thin golden threads extending outward from existing nodes, reaching toward neighbors, the tips glowing white-hot as new synapses are born in real time. Some connections are thick and bright — well-established pathways strengthened by repetition — while others are thin, faint, newly forming. The network pulses with waves of golden light traveling along established pathways in rhythmic patterns, each wave identical to the last. In the upper portion, the network becomes increasingly dense and luminous, suggesting the extraordinary complexity that repetition builds over time. The deep black background provides dramatic contrast, with subtle deep blue atmospheric haze and volumetric golden rays streaming diagonally from the upper right. Tiny golden particles float throughout like neural dust catching the light.
+
+TEXT — MUST BE RENDERED EXACTLY AS SPECIFIED WITH UNIFORM PLACEMENT. DO NOT ALTER IN ANY WAY:
+
+All text placement percentages below are measured from the TOP of the image and must be followed precisely to ensure uniform placement across all covers in the series.
+
+Line 1 (exactly 3% from top): "THE REPETITION SERIES" — small elegant Garamond font, centered horizontally, gold color (#D4A843), letter-spacing 0.15em, approximately 14pt equivalent.
+
+Line 2 (exactly 6% from top): "BOOK I" — Garamond font, centered, gold color (#D4A843), letter-spacing 0.2em, approximately 12pt equivalent. Flanked on the left and right by thin horizontal gold lines extending outward from the text.
+
+Lines 3-4 (title block, exactly 10-22% from top): "THE FOUNDATION OF MASTERY" — large, elegant Garamond font, centered, white/cream with subtle gold warmth. "THE" and "OF" are rendered noticeably smaller than "FOUNDATION" and "MASTERY." "MASTERY" is the largest word. Arranged as:
+Line 3: "THE FOUNDATION"
+Line 4: "OF MASTERY"
+
+Decorative ornamental line (exactly 24% from top): An elegant golden ornamental filigree divider — a thin horizontal line that blooms into delicate curving scrollwork and flourishes at the center, with symmetrical ornamental curls tapering to fine points at each end. Rendered in warm gold (#D4A843) with subtle luminous glow. This line appears ABOVE the subtitle.
+
+Line 5 (exactly 26% from top): "The Science and Psychology of Repetition" — smaller italic Garamond, centered, light gray/cream color.
+
+Decorative ornamental line (exactly 28% from top): An identical golden ornamental filigree divider matching the one above — same scrollwork, same flourishes, same symmetrical design. This line appears BELOW the subtitle.
+
+Line 6 (exactly 92% from top): "KETAN SHUKLA" — large Garamond font, centered, white/cream, generous letter-spacing approximately 0.2em.
+
+OVERALL MOOD: Cinematic, contemplative, warm golden tones against deep darkness. The feeling of witnessing the brain's miraculous ability to physically reshape itself — new connections forming, old ones strengthening — all driven by the sacred act of repetition. Photorealistic, editorial quality, suitable for a bestselling non-fiction book cover.

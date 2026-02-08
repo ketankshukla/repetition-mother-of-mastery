@@ -1,0 +1,32 @@
+A stunning 9:16 portrait book cover rendered in ultra-high-resolution photorealistic style with cinematic color grading.
+
+SUBJECT — CLOSE-UP PORTRAIT:
+A breathtakingly beautiful young white woman in her 20s, positioned in the lower-center of the image (her face centered around 65-75% down from the top, centered horizontally). She is captured in a close-up portrait, looking slightly downward and to the left with a thoughtful, introspective expression — the quiet satisfaction of someone who knows that small daily actions compound into extraordinary results. Her arms are gently folded across her chest, a posture of patient confidence and self-possession. A subtle, warm smile plays on her lips — not wide, but deeply content. Her face is captured with hyper-real detail — flawless yet entirely natural skin with visible pores across her nose and cheeks, a scattering of pale golden freckles across the bridge of her nose, the faintest hint of peach fuzz along her jawline caught by the light. Her eyebrows are full, naturally shaped, with individual hairs visible and slightly feathered at the inner corners. Her eyes are softly focused downward — large, bright amber-brown irises with golden striations radiating outward from the pupil like rings of a tree, each striation a slightly different shade of honey and bronze. Natural catchlights — two sharp, luminous reflections — sit in the upper portion of each iris. Her lashes are thick and dark, naturally fanned, each individually visible. Her lips are soft, naturally pink, curved in a smile of patient inner knowing. She is stunningly gorgeous yet radiates simplicity and humility — no vanity, only quiet strength and earned character. Her skin is bathed in warm golden light from above, creating luminous highlights on her forehead, the bridge of her nose, and her cheekbones, while soft shadows pool beneath her cheekbones and along the sides of her jaw. Every micro-detail is rendered — a tiny beauty mark near her left eyebrow, an almost invisible scar on her chin that speaks of a life lived fully, the way individual strands of her long auburn-brown hair catch the golden light like filaments of spun gold.
+
+CRITICAL COMPOSITION RULE — FACE PLACEMENT:
+The woman's face must be positioned entirely BELOW the subtitle text area and ABOVE the author name. Her face occupies roughly the 55%-82% vertical zone of the image. The top 45% of the image (where the title and subtitle text will be placed) must contain ONLY the background elements and open space — absolutely NO part of her face, hair, or hand may enter the top 35% of the image. This ensures the title text zone is completely clear of the portrait.
+
+BACKGROUND — THE INFINITE SPIRAL OF COMPOUND GROWTH:
+Behind her and slightly out of focus, the background depicts a breathtaking golden spiral — a visual metaphor for the compound effect of daily habits. A vast logarithmic spiral rendered in luminous gold begins tight and small near the center of the image, then expands outward in ever-larger arcs that fill the upper two-thirds of the frame. The spiral is not a simple line but a pathway — a golden road made of thousands of identical stepping stones, each stone a small, glowing golden disc, perfectly uniform, each one representing a single day of consistent practice. The stones nearest the center are dim and small — the humble beginnings — but as the spiral expands outward, each stone grows fractionally brighter and larger than the last, visualizing the compound effect. Along the spiral pathway, identical golden milestones appear at regular intervals — small pillars of light marking consistent progress. The spaces between the spiral arms are filled with a constellation of tiny golden points arranged in precise repeating geometric patterns echoing the Fibonacci sequence. Golden light emanates from the spiral's expanding outer edge, growing more intense as the spiral widens. The deep black background provides dramatic contrast, with subtle warm amber atmospheric haze. Volumetric golden rays radiate outward along the spiral's path. Fine golden particles and light motes drift throughout the scene.
+
+TEXT — MUST BE RENDERED EXACTLY AS SPECIFIED WITH UNIFORM PLACEMENT. DO NOT ALTER IN ANY WAY:
+
+All text placement percentages below are measured from the TOP of the image and must be followed precisely to ensure uniform placement across all covers in the series.
+
+Line 1 (exactly 3% from top): "THE REPETITION SERIES" — small elegant Garamond font, centered horizontally, gold color (#D4A843), letter-spacing 0.15em, approximately 14pt equivalent.
+
+Line 2 (exactly 6% from top): "BOOK II" — Garamond font, centered, gold color (#D4A843), letter-spacing 0.2em, approximately 12pt equivalent. Flanked on the left and right by thin horizontal gold lines extending outward from the text.
+
+Lines 3-4 (title block, exactly 10-22% from top): "THE HABIT ENGINE" — large, elegant Garamond font, centered, white/cream with subtle gold warmth. "THE" is rendered noticeably smaller than "HABIT" and "ENGINE." "ENGINE" is the largest word. Arranged as:
+Line 3: "THE HABIT"
+Line 4: "ENGINE"
+
+Decorative ornamental line (exactly 24% from top): An elegant golden ornamental filigree divider — a thin horizontal line that blooms into delicate curving scrollwork and flourishes at the center, with symmetrical ornamental curls tapering to fine points at each end. Rendered in warm gold (#D4A843) with subtle luminous glow. This line appears ABOVE the subtitle.
+
+Line 5 (exactly 26% from top): "Building Habits and the Journey to Excellence" — smaller italic Garamond, centered, light gray/cream color.
+
+Decorative ornamental line (exactly 28% from top): An identical golden ornamental filigree divider matching the one above — same scrollwork, same flourishes, same symmetrical design. This line appears BELOW the subtitle.
+
+Line 6 (exactly 92% from top): "KETAN SHUKLA" — large Garamond font, centered, white/cream, generous letter-spacing approximately 0.2em.
+
+OVERALL MOOD: Cinematic, awe-inspiring, warm golden tones against deep darkness. The feeling of witnessing the mathematical beauty of compound growth — how one small habit, repeated daily, spirals outward into a life of extraordinary achievement. Photorealistic, editorial quality, suitable for a bestselling non-fiction book cover.

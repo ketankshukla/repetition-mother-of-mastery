@@ -1,0 +1,32 @@
+A stunning 9:16 portrait book cover rendered in ultra-high-resolution photorealistic style with cinematic color grading.
+
+SUBJECT — CLOSE-UP PORTRAIT:
+A breathtakingly beautiful young white woman in her 20s, positioned in the lower-right quadrant of the image (her face centered around 65-75% down from the top, offset slightly right of center). She is captured in a dynamic close-up portrait, her head tilted slightly with energy, looking to the left with an exhilarated, joyful smile — the electric thrill of someone witnessing the peak of human physical performance, seeing an athlete's body move with impossible precision born from ten thousand repetitions. Her right arm is extended outward to the left, hand open, fingers spread, as if conducting the symphony of motion that swirls above her. Her face is captured with hyper-real detail — flawless yet entirely natural skin with visible pores across her nose and cheeks, a scattering of pale golden freckles across the bridge of her nose, the faintest hint of peach fuzz along her jawline caught by the light. Her eyebrows are full, naturally shaped, with individual hairs visible and slightly feathered at the inner corners. Her eyes are wide open and alive with excitement — large, bright amber-brown irises with golden striations radiating outward from the pupil like rings of a tree, each striation a slightly different shade of honey and bronze. Natural catchlights — two sharp, luminous reflections — sit in the upper portion of each iris, giving her eyes a deep, glistening, almost supernatural clarity. Her lashes are thick and dark, naturally fanned, each individually visible. Her lips are soft, naturally pink, parted in a wide, genuine smile of pure exhilaration. She is stunningly gorgeous yet radiates simplicity and humility — no vanity, only quiet strength and earned character. Her skin is bathed in warm golden light from above, creating luminous highlights on her forehead, the bridge of her nose, and her cheekbones, while soft shadows pool beneath her cheekbones and along the sides of her jaw. Every micro-detail is rendered — a tiny beauty mark near her left eyebrow, an almost invisible scar on her chin that speaks of a life lived fully, the way individual strands of her long auburn-brown hair are caught mid-movement, flowing dynamically as if stirred by the energy of the scene, catching the golden light like filaments of spun gold.
+
+CRITICAL COMPOSITION RULE — FACE PLACEMENT:
+The woman's face must be positioned entirely BELOW the subtitle text area and ABOVE the author name. Her face occupies roughly the 55%-82% vertical zone of the image. The top 45% of the image (where the title and subtitle text will be placed) must contain ONLY the background elements and open space — absolutely NO part of her face, hair, or hand may enter the top 35% of the image. This ensures the title text zone is completely clear of the portrait.
+
+BACKGROUND — THE SYMPHONY OF ATHLETIC MOTION:
+Behind her and slightly out of focus, the background depicts a breathtaking stroboscopic visualization of athletic mastery — multiple exposure motion studies rendered in luminous gold. A single human figure is captured in dozens of sequential positions, performing a perfect athletic movement — a gymnast in mid-rotation, or a martial artist executing a flawless roundhouse kick. Each position is rendered as a translucent golden silhouette, identical in form but shifted fractionally through space, creating a fluid golden arc of motion that sweeps across the upper two-thirds of the image. The silhouettes overlap and blend, each one a precise repetition of the same perfect form — the same angle of the arm, the same extension of the leg — duplicated thirty, forty times in sequence. Golden motion trails connect each position like ribbons of light. At the peak of the motion arc, the figure blazes brightest — the culmination of ten thousand identical practice repetitions. Surrounding the motion study, thousands of tiny golden particles trace identical parabolic arcs through the air. Muscle fiber structures are faintly visible within the silhouettes — repeating parallel lines of golden filaments, visualizing the muscle memory encoded by relentless practice. The deep black background provides dramatic contrast, with subtle warm amber atmospheric haze. Volumetric golden light radiates from the peak of the motion arc.
+
+TEXT — MUST BE RENDERED EXACTLY AS SPECIFIED WITH UNIFORM PLACEMENT. DO NOT ALTER IN ANY WAY:
+
+All text placement percentages below are measured from the TOP of the image and must be followed precisely to ensure uniform placement across all covers in the series.
+
+Line 1 (exactly 3% from top): "THE REPETITION SERIES" — small elegant Garamond font, centered horizontally, gold color (#D4A843), letter-spacing 0.15em, approximately 14pt equivalent.
+
+Line 2 (exactly 6% from top): "BOOK III" — Garamond font, centered, gold color (#D4A843), letter-spacing 0.2em, approximately 12pt equivalent. Flanked on the left and right by thin horizontal gold lines extending outward from the text.
+
+Lines 3-4 (title block, exactly 10-22% from top): "MASTERY IN ACTION" — large, elegant Garamond font, centered, white/cream with subtle gold warmth. "IN" is rendered noticeably smaller than "MASTERY" and "ACTION." "MASTERY" is the largest word. Arranged as:
+Line 3: "MASTERY IN"
+Line 4: "ACTION"
+
+Decorative ornamental line (exactly 24% from top): An elegant golden ornamental filigree divider — a thin horizontal line that blooms into delicate curving scrollwork and flourishes at the center, with symmetrical ornamental curls tapering to fine points at each end. Rendered in warm gold (#D4A843) with subtle luminous glow. This line appears ABOVE the subtitle.
+
+Line 5 (exactly 26% from top): "Sports, Arts, and Language" — smaller italic Garamond, centered, light gray/cream color.
+
+Decorative ornamental line (exactly 28% from top): An identical golden ornamental filigree divider matching the one above — same scrollwork, same flourishes, same symmetrical design. This line appears BELOW the subtitle.
+
+Line 6 (exactly 92% from top): "KETAN SHUKLA" — large Garamond font, centered, white/cream, generous letter-spacing approximately 0.2em.
+
+OVERALL MOOD: Cinematic, dynamic, warm golden tones against deep darkness. The feeling of witnessing human physical mastery at its peak — the breathtaking moment when ten thousand repetitions converge into a single perfect movement. Photorealistic, editorial quality, suitable for a bestselling non-fiction book cover.
