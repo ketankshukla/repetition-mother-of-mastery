@@ -1,7 +1,8 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { ChevronLeft, ChevronRight, ShoppingCart, Play } from "lucide-react";
+import { ChevronLeft, ChevronRight, ShoppingCart } from "lucide-react";
+import YouTubePlayer from "@/components/YouTubePlayer";
 import { books } from "@/data/books";
 import { useBook } from "@/context/BookContext";
 
@@ -94,21 +95,7 @@ export default function Hero() {
 
           {/* Series Video */}
           <div className="w-1/2 max-w-[300px]">
-            <div className="h-full overflow-hidden rounded-2xl border border-gold/20 bg-navy-light/30 flex flex-col items-center justify-center">
-              <div className="relative">
-                <div className="h-14 w-14 rounded-full border-2 border-gold/40 bg-gold/10 flex items-center justify-center">
-                  <Play className="h-5 w-5 text-gold ml-0.5" />
-                </div>
-              </div>
-              <div className="mt-4 text-center px-4">
-                <p className="font-serif text-sm font-semibold text-cream">
-                  Video Coming Soon
-                </p>
-                <p className="mt-1 text-xs text-foreground/50">
-                  About The Series
-                </p>
-              </div>
-            </div>
+            <YouTubePlayer videoId="AMIjwC-PQiU" />
           </div>
         </div>
 
