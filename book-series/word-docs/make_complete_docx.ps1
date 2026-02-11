@@ -60,8 +60,8 @@ function Add-Section {
   $content = [System.IO.File]::ReadAllText($FilePath, $utf8NoBom).Trim()
 
   if ($HeadingOverride) {
-    # Strip existing heading line
-    $content = [regex]::Replace($content, '(?m)^#{1,3}\s+.*(\r?\n){1,2}', '')
+    # Strip ONLY the first line if it is a heading (preserve sub-headings in body)
+    $content = [regex]::Replace($content, '\A\s*#{1,3}\s+[^\r\n]*(\r?\n){0,2}', '')
     $content = $content.Trim()
   }
 
@@ -74,14 +74,7 @@ function Add-Section {
     [void]$sb.AppendLine("")
     $script:isFirst = $false
   } else {
-    $heading = if ($HeadingOverride) { $HeadingOverride } else {
-      # Extract heading from first line
-      if ($content -match '(?m)^#{1,3}\s+(.+)$') { $Matches[1] } else { "Section" }
-    }
-    # Strip the heading from content if it came from the file
-    if (-not $HeadingOverride) {
-      $content = [regex]::Replace($content, '(?m)^#{1,3}\s+.*(\r?\n){1,2}', '').Trim()
-    }
+    $heading = if ($HeadingOverride) { $HeadingOverride } else { "Section" }
 
     $safe = $heading -replace '&','&amp;' -replace '<','&lt;' -replace '>','&gt;'
     [void]$sb.AppendLine("")
