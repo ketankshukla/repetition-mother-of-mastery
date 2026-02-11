@@ -59,7 +59,7 @@ export default function AuthorSection() {
                 and explores the ideas that fascinate him. You can find his
                 other work at{" "}
                 <a
-                  href="https://aztecsamurai.ketanshukla.com"
+                  href="https://aztec.ketanshukla.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gold hover:text-gold-light underline underline-offset-2 transition-colors"
