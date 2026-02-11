@@ -8,7 +8,10 @@ export default function BooksSection() {
   const { openBook } = useBook();
 
   return (
-    <section className="relative px-4 py-20 sm:py-28 sm:px-6 lg:px-8 overflow-hidden">
+    <section
+      id="books"
+      className="relative px-4 py-20 sm:py-28 sm:px-6 lg:px-8 overflow-hidden"
+    >
       <div className="relative z-10 mx-auto max-w-6xl">
         {/* Section Header */}
         <div className="mb-16 text-center">

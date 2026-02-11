@@ -29,10 +29,16 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  touch-action: pan-x pan-y;
+  -ms-touch-action: pan-x pan-y;
+  -webkit-text-size-adjust: 100%;
+  overscroll-behavior: none;
 }
 
 html {
   scroll-behavior: smooth;
+  touch-action: pan-x pan-y;
+  -ms-touch-action: pan-x pan-y;
 }
 
 ::selection {
@@ -210,7 +216,19 @@ html {
 /* Mobile-friendly base */
 @media (max-width: 640px) {
   html {
-    font-size: 16px;
+    font-size: 17px;
     -webkit-text-size-adjust: 100%;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1025px) {
+  html {
+    font-size: 18px;
   }
 }

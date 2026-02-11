@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, EB_Garamond } from "next/font/google";
 import "./globals.css";
 
@@ -12,6 +12,13 @@ const garamond = EB_Garamond({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800"],
 });
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+};
 
 export const metadata: Metadata = {
   title: "Repetition: Mother of Mastery — A Five-Book Series by Ketan Shukla",
