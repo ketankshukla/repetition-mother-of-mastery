@@ -59,19 +59,18 @@ for ($i = 0; $i -lt $files.Count; $i++) {
 
   $content = [System.IO.File]::ReadAllText($files[$i].FullName, $utf8NoBom)
 
-  # Remove existing title line
-  $content = [regex]::Replace($content, '(?m)^\s*Chapter\s+\d+.*(\r?\n){1,2}', '')
+  # Remove existing title line (with or without markdown # prefix)
+  $content = [regex]::Replace($content, '(?m)^\s*#{0,3}\s*Chapter\s+\d+.*(\r?\n){1,2}', '')
 
-  # Build heading from filename
+  # Build heading from filename — renumber 1-based per book
+  $localNum = $i + 1
   $base = $files[$i].BaseName
   if ($base -match '^chapter_(\d+)_+(.*)$') {
-    $num  = [int]$Matches[1]
     $slug = ($Matches[2] -replace '_', ' ')
     $slug = (Get-Culture).TextInfo.ToTitleCase($slug.ToLower())
-    $heading = "Chapter $num - $slug"
+    $heading = "Chapter $localNum - $slug"
   } elseif ($base -match '^chapter_(\d+)$') {
-    $num = [int]$Matches[1]
-    $heading = "Chapter $num"
+    $heading = "Chapter $localNum"
   } else {
     $heading = $base
   }
