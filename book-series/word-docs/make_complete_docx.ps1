@@ -50,9 +50,8 @@ Remove-Item $outMd  -ErrorAction SilentlyContinue
 Remove-Item $outDoc -ErrorAction SilentlyContinue
 
 $sb = New-Object System.Text.StringBuilder
-$isFirst = $true
 
-# --- Helper: add a section with page break ---
+# --- Helper: add a section — every section gets a page break heading ---
 function Add-Section {
   param([string]$FilePath, [string]$HeadingOverride)
 
@@ -65,26 +64,15 @@ function Add-Section {
     $content = $content.Trim()
   }
 
-  if ($script:isFirst) {
-    if ($HeadingOverride) {
-      [void]$sb.AppendLine("# $HeadingOverride")
-      [void]$sb.AppendLine("")
-    }
-    [void]$sb.Append($content)
-    [void]$sb.AppendLine("")
-    $script:isFirst = $false
-  } else {
-    $heading = if ($HeadingOverride) { $HeadingOverride } else { "Section" }
-
-    $safe = $heading -replace '&','&amp;' -replace '<','&lt;' -replace '>','&gt;'
-    [void]$sb.AppendLine("")
-    [void]$sb.AppendLine('``````{=openxml}')
-    [void]$sb.AppendLine("<w:p><w:pPr><w:pStyle w:val=`"Heading1`"/><w:pageBreakBefore/></w:pPr><w:r><w:t>$safe</w:t></w:r></w:p>")
-    [void]$sb.AppendLine('``````')
-    [void]$sb.AppendLine("")
-    [void]$sb.Append($content)
-    [void]$sb.AppendLine("")
-  }
+  $heading = if ($HeadingOverride) { $HeadingOverride } else { "Section" }
+  $safe = $heading -replace '&','&amp;' -replace '<','&lt;' -replace '>','&gt;'
+  [void]$sb.AppendLine("")
+  [void]$sb.AppendLine('``````{=openxml}')
+  [void]$sb.AppendLine("<w:p><w:pPr><w:pStyle w:val=`"Heading1`"/><w:pageBreakBefore/></w:pPr><w:r><w:t>$safe</w:t></w:r></w:p>")
+  [void]$sb.AppendLine('``````')
+  [void]$sb.AppendLine("")
+  [void]$sb.Append($content)
+  [void]$sb.AppendLine("")
 }
 
 # =============================================
