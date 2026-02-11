@@ -1,0 +1,13 @@
+Dimensions: 2000 x 2000 pixels (square, transparent background option)
+
+Prompt:
+
+Sharp photorealistic emblem on deep midnight-blue-to-black background, 2000x2000 pixels. NO oil painting, NO painterly style.
+
+Circular emblem combining neuroscience and mastery symbolism. Outer ring: polished obsidian-black with inlaid gold filigree in a repeating pattern of interconnected neural pathway motifs — dendrites, axons, and synaptic nodes forming an endless loop that symbolizes repetition. Inner circle: a luminous golden Fibonacci spiral radiating outward from the center, composed of thousands of tiny interconnected golden dots representing neural connections. At the center of the spiral, a single golden key — ornate, elegant, with its shaft formed from a vertical DNA-like double helix of neural pathways and its teeth shaped as branching dendrites. The key glows with warm inner golden light, representing the master key of repetition. Four cardinal accent points on the outer ring: polished amber gemstones set in gold bezels, catching warm light. The entire emblem has the quality of a precision-crafted scientific instrument rendered in precious metals — as if a master jeweler built a tribute to neuroscience. Subtle golden warmth radiates from within, as if the emblem itself is alive with the energy of practice.
+
+TEXT (rendered below emblem):
+
+"REPETITION: MOTHER OF MASTERY" — elegant Garamond, gold (#FFD700) with subtle warm amber shadow, letter-spacing 0.15em, centered.
+Below that: "BY KETAN SHUKLA" — smaller Garamond, warm cream/white (#FFF8DC), centered.
+Photorealistic metalwork and gemstone rendering — must look like a real precision-crafted artifact, not a painting. The emblem should feel like something you could hold in your hand — weighty, intricate, and unmistakably the seal of a mastery-focused body of work.
