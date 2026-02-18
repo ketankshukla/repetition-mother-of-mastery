@@ -3,87 +3,89 @@
 **Book:** The Foundation of Mastery  
 **Series:** Repetition: Mother of Mastery  
 **Author:** Ketan Shukla  
-**Video Format:** Portrait (9:16), 3 minutes  
-**Platform Targets:** YouTube Shorts, Instagram Reels, TikTok  
+**Video Format:** Portrait (9:16 vertical), ~3 minutes 22 seconds  
+**Platform Targets:** YouTube, Instagram, TikTok
 
 ---
 
 ## Overview
 
-This guide walks you through every step required to produce the 3-minute marketing video for Book 1 using ChatGPT (for b-roll image generation), HeyGen (for video assembly), and your existing book cover and logo assets.
+This guide walks you through every step required to produce the ~3-minute marketing video for Book 1 using ChatGPT (for b-roll image generation), HeyGen (for video assembly), and your existing book cover and logo assets.
 
-You will generate 10 b-roll images, assemble them with the book cover and logo in HeyGen, and deliver a polished 3-minute portrait video with synchronized narration and visuals.
+**Video flow:** Logo → Book Cover → 10 b-roll images (content) → Book Cover (CTA) → Logo
+
+You will generate 10 b-roll images — pure cinematic visuals, no human figures — each one depicting exactly what the narrator is talking about at that moment. The AI avatar presenter is overlaid in the lower third of the frame throughout, with the b-roll visible above and around them.
 
 ---
 
 ## Assets You Need Before You Start
 
-| Asset | Status | Notes |
-|---|---|---|
-| Book 1 cover image | Ready | Use the existing Book 1 cover file |
-| Author logo | Ready | Use your existing logo file |
-| 10 b-roll images | To generate | Follow Step 1 below |
-| HeyGen account | Required | heygen.com |
-| ChatGPT account (DALL-E or GPT-4o image gen) | Required | For b-roll generation |
+| Asset                                | Status      | Notes                                            |
+| ------------------------------------ | ----------- | ------------------------------------------------ |
+| Book 1 cover image                   | Ready       | Used in Scene 2 (opening) and Scene 13 (CTA)     |
+| Author logo                          | Ready       | Used in Scene 1 (opening) and Scene 14 (closing) |
+| 10 b-roll images                     | To generate | Follow Step 1 below                              |
+| HeyGen account                       | Required    | heygen.com                                       |
+| ChatGPT account (DALL-E 3 or GPT-4o) | Required    | For b-roll generation                            |
 
 ---
 
 ## Step 1 — Generate the 10 B-Roll Images Using ChatGPT
 
-Each b-roll image has a dedicated prompt file in this folder. Open ChatGPT (with image generation enabled — DALL-E 3 or GPT-4o) and submit each prompt file one at a time.
+Each b-roll image has a dedicated prompt file in this folder. All prompts are written for **9:16 portrait format**, with no human figures — pure cinematic concept visuals. Submit each prompt to ChatGPT with image generation enabled.
 
 ### The 10 Images and Their Concepts
 
-| File | Image Name | Concept |
-|---|---|---|
-| `image-01.txt` | image-01 | The talent myth shattering — the opening hook |
-| `image-02.txt` | image-02 | Neural pathways forming (Hebbian learning) |
-| `image-03.txt` | image-03 | Myelin wrapping — building speed and precision |
-| `image-04.txt` | image-04 | Neuroplasticity — the brain grows at any age |
-| `image-05.txt` | image-05 | Deliberate practice vs. mindless repetition |
-| `image-06.txt` | image-06 | The four stages of competence |
-| `image-07.txt` | image-07 | The spacing effect |
-| `image-08.txt` | image-08 | Sleep and memory consolidation |
-| `image-09.txt` | image-09 | Feedback loops |
-| `image-10.txt` | image-10 | The psychology of persistence |
+| File           | Image Name | Visual Concept                                                                                  | Narration Moment                                                                            |
+| -------------- | ---------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| `image-01.txt` | image-01   | Stone monolith of talent myth shattering apart in golden light                                  | "What if they did not start with some gift you were never given?"                           |
+| `image-02.txt` | image-02   | Macro neural network — neurons firing, Hebbian connections forming                              | "Neural pathways physically form and strengthen with each repetition"                       |
+| `image-03.txt` | image-03   | Myelin sheath wrapping axon fibers — nodes of Ranvier blazing                                   | "Myelin wraps around your nerve fibers every time you practice"                             |
+| `image-04.txt` | image-04   | Living brain cross-section actively rewiring — new pathways growing                             | "Neuroplasticity — your brain's infinite capacity to grow at any age"                       |
+| `image-05.txt` | image-05   | Vertical split: cold gray futile clockwork (left) vs. warm gold targeting spiral (right)        | "The difference between deliberate practice and mindless repetition"                        |
+| `image-06.txt` | image-06   | Four-level stone staircase ascending from dark fog to blazing white-gold summit                 | "The four stages of competence — from ignorance to effortless mastery"                      |
+| `image-07.txt` | image-07   | Landscape split: cramming cliff of forgetting (top) vs. spaced repetition archipelago (bottom)  | "The spacing effect — distributing practice over time"                                      |
+| `image-08.txt` | image-08   | Night window exterior (cool blue) surrounding blazing golden hippocampal consolidation (center) | "While you sleep, your brain is actively consolidating every pattern"                       |
+| `image-09.txt` | image-09   | Golden torus feedback loop machine with four precision nodes and inward improvement spiral      | "Feedback loops — the engine that transforms blind repetition into precision-guided growth" |
+| `image-10.txt` | image-10   | Mountain path winding upward through quitting-point shadows to blazing gold summit              | "The people who achieve mastery are the ones who kept going anyway"                         |
 
 ### How to Submit Each Prompt
 
-1. Open `image-01.txt` in a text editor
-2. Copy the entire contents of the file
-3. Paste it into ChatGPT's message box
-4. Submit and wait for the image to generate
-5. Download the image and save it as `image-01.png` (or `.jpg`)
+1. Open the `.txt` file in a text editor
+2. Copy the **entire contents** of the file
+3. Paste into ChatGPT (with DALL-E 3 or GPT-4o image generation active)
+4. Submit and wait for the image
+5. Download and save as `image-01.png`, `image-02.png`, etc.
 6. Repeat for all 10 files
 
 ### Tips for Best Results
 
-- **Use DALL-E 3 or GPT-4o image generation** — these produce the most photorealistic, cinematic results
-- If the first result is not quite right, ask ChatGPT: *"Regenerate this with more cinematic lighting and higher photorealism"*
-- All prompts specify **16:9 landscape format** — confirm this in the generation settings if possible
-- Save all 10 images in a dedicated folder named `book1-broll` for easy upload to HeyGen
-- Name them exactly: `image-01`, `image-02`, ... `image-10` to match the HeyGen script cues
+- Use **GPT-4o image generation** or **DALL-E 3** for maximum photorealism
+- If a result misses the mark, add: _"Regenerate with stronger cinematic lighting, deeper blacks, and more vivid gold tones. No human figures."_
+- All prompts specify **9:16 portrait format** — confirm this is selected before generating
+- Save all 10 images in a folder named `book1-broll/` for clean HeyGen upload
+- Name files exactly: `image-01.png` through `image-10.png`
 
 ---
 
 ## Step 2 — Prepare Your Asset Folder
 
-Before opening HeyGen, organize all your assets in one folder:
+Organize all assets in one folder before opening HeyGen:
 
 ```
 book1-video-assets/
-├── book1-cover.png          (your Book 1 cover image)
-├── author-logo.png          (your logo)
-├── image-01.png             (generated b-roll)
-├── image-02.png
-├── image-03.png
-├── image-04.png
-├── image-05.png
-├── image-06.png
-├── image-07.png
-├── image-08.png
-├── image-09.png
-└── image-10.png
+├── author-logo.png          (your logo — Scenes 1 and 14)
+├── book1-cover.png          (Book 1 cover — Scenes 2 and 13)
+├── image-01.png             (b-roll — Scene 3)
+├── image-02.png             (b-roll — Scene 4)
+├── image-03.png             (b-roll — Scene 5)
+├── image-04.png             (b-roll — Scene 6)
+├── image-05.png             (b-roll — Scene 7)
+├── image-06.png             (b-roll — Scene 8)
+├── image-07.png             (b-roll — Scene 9)
+├── image-08.png             (b-roll — Scene 10)
+├── image-09.png             (b-roll — Scene 11)
+└── image-10.png             (b-roll — Scene 12)
 ```
 
 ---
@@ -95,113 +97,100 @@ book1-video-assets/
 1. Log in to HeyGen at heygen.com
 2. Click **Create Video**
 3. Select **Portrait** format (9:16 vertical)
-4. Set duration target: **3 minutes** (180 seconds)
+4. Target duration: approximately **3 minutes 22 seconds**
 
-### 3b. Choose or Configure Your Avatar
+### 3b. Configure Your Avatar
 
-- Select your preferred HeyGen avatar (or upload a custom avatar if you have one)
-- Position the avatar in the **lower-center** of the frame for b-roll segments
-- For the book cover opening and closing segments, the avatar can be **full-frame** or **lower-third**
+- Select your preferred AI avatar
+- Set avatar position: **lower third of frame** — this position is used for ALL 14 scenes
+- The avatar must be low enough that the background image is clearly visible in the upper two-thirds of the frame
+- On logo and book cover scenes, ensure the logo/cover is fully visible and not obscured by the avatar
 
 ### 3c. Upload All Assets
 
 1. Go to the **Media** panel in HeyGen
-2. Upload all files from your `book1-video-assets/` folder
-3. Confirm all 12 assets are visible: book cover, logo, and image-01 through image-10
+2. Upload all 12 files from your `book1-video-assets/` folder
+3. Confirm all assets are visible: logo, book cover, and image-01 through image-10
 
 ---
 
-## Step 4 — Build the Scene Timeline
+## Step 4 — Build the 14-Scene Timeline
 
-Build the video scene by scene following the image transition summary from `heygen-video-script.txt`. Each scene corresponds to one background image.
+Build the video scene by scene. The complete scene order is:
 
-### Scene-by-Scene Build
+| Scene | Duration  | Background Asset | Narration Summary                                                  |
+| ----- | --------- | ---------------- | ------------------------------------------------------------------ |
+| 1     | 0:00–0:05 | Author Logo      | Silent — logo hold                                                 |
+| 2     | 0:05–0:13 | Book Cover       | "What if everything you have ever believed about talent is wrong?" |
+| 3     | 0:13–0:35 | image-01         | Talent myth shattering                                             |
+| 4     | 0:35–1:00 | image-02         | Neural pathways and Hebbian learning                               |
+| 5     | 1:00–1:22 | image-03         | Myelin wrapping                                                    |
+| 6     | 1:22–1:42 | image-04         | Neuroplasticity                                                    |
+| 7     | 1:42–2:03 | image-05         | Deliberate vs. mindless practice                                   |
+| 8     | 2:03–2:15 | image-06         | Four stages of competence                                          |
+| 9     | 2:15–2:25 | image-07         | The spacing effect                                                 |
+| 10    | 2:25–2:35 | image-08         | Sleep and memory consolidation                                     |
+| 11    | 2:35–2:45 | image-09         | Feedback loops                                                     |
+| 12    | 2:45–2:57 | image-10         | Psychology of persistence                                          |
+| 13    | 2:57–3:17 | Book Cover       | Full closing CTA                                                   |
+| 14    | 3:17–3:22 | Author Logo      | Silent — logo hold — fade to black                                 |
 
-| Scene | Duration | Background Asset | Script Section |
-|---|---|---|---|
-| 1 | 0:00–0:08 | Book Cover | Opening hook — "What if everything you have ever believed about talent is wrong?" |
-| 2 | 0:08–0:30 | image-01 | Talent myth — "What if they did not start with some gift you were never given?" |
-| 3 | 0:30–0:55 | image-02 | Neural pathways — "Neural pathways physically form and strengthen with each repetition" |
-| 4 | 0:55–1:18 | image-03 | Myelin — "A substance called myelin wraps around your nerve fibers every time you practice" |
-| 5 | 1:18–1:38 | image-04 | Neuroplasticity — "Your brain's infinite capacity to grow at any age" |
-| 6 | 1:38–2:00 | image-05 | Deliberate practice — "The difference between deliberate practice and mindless repetition" |
-| 7 | 2:00–2:12 | image-06 | Four stages — "The four stages of competence" |
-| 8 | 2:12–2:22 | image-07 | Spacing effect — "Distributing your practice over time" |
-| 9 | 2:22–2:32 | image-08 | Sleep — "While you sleep, your brain is actively consolidating" |
-| 10 | 2:32–2:42 | image-09 | Feedback loops — "The engine that transforms blind repetition into precision-guided growth" |
-| 11 | 2:42–2:55 | image-10 | Persistence — "The ones who kept going anyway" |
-| 12 | 2:55–3:10 | Book Cover | Closing CTA — "Get your copy today on Amazon" |
-| 13 | 3:10–3:15 | Author Logo | Fade out |
-
-### How to Set Each Scene in HeyGen
+### How to Set Each Scene
 
 For each scene:
+
 1. Click **Add Scene** (or duplicate the previous scene)
-2. Set the **background** to the corresponding image asset
-3. Set the **background display** to: Full Screen, Centered, Cover (fills the frame)
-4. Set the **transition** between scenes to: **Cross Fade, 0.5 seconds**
-5. Paste the corresponding script text into the **narration/script** field for that scene
-6. Adjust scene duration to match the timing in the table above
+2. Set the **background** to the corresponding asset
+3. Set background display to: **Full Screen, Centered, Cover** (fills the 9:16 frame)
+4. Set the **transition** to: **Cross Fade, 0.5 seconds**
+5. Paste the narration text from `heygen-video-script.txt` into the scene's script field
+6. Set scene duration to match the timing table above
 
 ---
 
-## Step 5 — Enter the Full Script
+## Step 5 — Enter the Narration Script
 
-Open `heygen-video-script.txt` and copy the script text for each scene into the corresponding HeyGen scene's narration field. The script is already divided by scene with clear markers like:
+Open `heygen-video-script.txt`. For each scene, copy only the narration text (the lines below each `[SCENE X — ...]` marker, not the marker itself) into the corresponding HeyGen scene's script field.
 
-```
-[Transition to image-01 — The Talent Myth Shattering]
-What if the people you admire most...
-```
-
-Copy only the narration text (not the bracketed cue markers) into each scene's script field.
+Scenes 1 and 14 (logo scenes) have no narration — leave the script field empty for these scenes.
 
 ---
 
 ## Step 6 — Configure Audio and Music
 
 ### Narration Voice
-- Select a clear, authoritative, warm voice
+
 - Speaking pace: **measured and deliberate** — not rushed
-- Tone: **confident and inspiring** — this is a book that changes lives
+- Tone: **confident, authoritative, inspiring**
 
 ### Background Music
-- Select a **warm, cinematic, instrumental** track
-- Music style: builds gradually from quiet and contemplative at the opening to powerful and inspiring at the closing CTA
-- **Volume under narration:** 15–20% (music should support, not compete)
-- **Volume during opening (0:00–0:08) and closing (2:55–3:15):** 60–70% (music is featured)
+
+- Style: warm, cinematic, instrumental — builds from quiet/contemplative at opening to powerful/inspiring at closing CTA
+- Volume under narration: **15–20%**
+- Volume on logo scenes (1 and 14): **50–60%**
+- Volume on book cover scenes (2 and 13): **40–50%**
 
 ---
 
-## Step 7 — Optional Text Overlays
+## Step 7 — Text Overlays
 
-For maximum impact, add animated text overlays when the narrator speaks key terms. These appear as lower-third captions:
-
-| Timestamp | Text Overlay | Style |
-|---|---|---|
-| ~0:45 | HEBBIAN LEARNING | Gold (#D4A843), Garamond, animated fade-in |
-| ~1:05 | MYELIN | Gold (#D4A843), Garamond, animated fade-in |
-| ~1:25 | NEUROPLASTICITY | Gold (#D4A843), Garamond, animated fade-in |
-| ~1:48 | DELIBERATE PRACTICE | Gold (#D4A843), Garamond, animated fade-in |
-| ~2:05 | FOUR STAGES OF COMPETENCE | Gold (#D4A843), Garamond, animated fade-in |
-| ~2:15 | THE SPACING EFFECT | Gold (#D4A843), Garamond, animated fade-in |
-| ~2:38 | FEEDBACK LOOPS | Gold (#D4A843), Garamond, animated fade-in |
+**None.** Do not add any text overlays, captions, lower-third labels, or title cards of any kind. The visuals and narration carry the entire video.
 
 ---
 
 ## Step 8 — Review and Export
 
-### Before Exporting — Checklist
+### Pre-Export Checklist
 
-- [ ] All 13 scenes are present and in the correct order
-- [ ] Each scene has the correct background image
-- [ ] All transitions are cross-fade at 0.5 seconds
-- [ ] Total video duration is approximately 3 minutes (175–185 seconds)
-- [ ] Narration text is entered correctly in each scene
-- [ ] Music volume is correctly set (low under narration, higher on cover scenes)
-- [ ] Book cover appears at both the opening and closing
-- [ ] Author logo appears in the final scene
-- [ ] Portrait format (9:16) is confirmed
+- [ ] All 14 scenes present in correct order
+- [ ] Scene 1 and Scene 14: Author Logo, no narration
+- [ ] Scene 2 and Scene 13: Book Cover
+- [ ] Scenes 3–12: image-01 through image-10 in correct order
+- [ ] All transitions: Cross Fade, 0.5 seconds
+- [ ] Avatar positioned in lower third throughout
+- [ ] No text overlays of any kind
+- [ ] Total duration approximately 3 minutes 22 seconds
+- [ ] Portrait format (9:16) confirmed
 
 ### Export Settings
 
@@ -214,11 +203,11 @@ For maximum impact, add animated text overlays when the narrator speaks key term
 
 ## Step 9 — Upload and Publish
 
-Once exported:
+### Platform Notes
 
-1. **YouTube Shorts:** Upload as a Short (under 60 seconds clips go to Shorts automatically; for 3-minute videos, upload as a regular video and add `#Shorts` is not applicable — upload as a standard YouTube video with portrait orientation)
-2. **Instagram Reels:** Upload directly — Instagram supports up to 90 seconds for Reels; for 3-minute videos, use Instagram Video
-3. **TikTok:** Upload as a standard TikTok video (supports up to 10 minutes)
+- **YouTube:** Upload as a standard video with portrait orientation. Add to a playlist for the book series.
+- **Instagram:** Upload as a Reel (up to 90 seconds) or Instagram Video (longer). Portrait format is native.
+- **TikTok:** Upload as a standard TikTok video. Portrait format is native.
 
 ### Recommended Title and Description
 
@@ -233,20 +222,19 @@ What if talent is not something you are born with — but something you build? T
 
 ## File Reference Summary
 
-All files for this production are located in:
-`video-scripts/book1-marketing/`
+All files for this production are in: `video-scripts/book1-marketing/`
 
-| File | Purpose |
-|---|---|
-| `image-01.txt` | ChatGPT prompt — The talent myth shattering |
-| `image-02.txt` | ChatGPT prompt — Neural pathways forming |
-| `image-03.txt` | ChatGPT prompt — Myelin wrapping |
-| `image-04.txt` | ChatGPT prompt — Neuroplasticity at every age |
-| `image-05.txt` | ChatGPT prompt — Deliberate vs. mindless practice |
-| `image-06.txt` | ChatGPT prompt — Four stages of competence |
-| `image-07.txt` | ChatGPT prompt — The spacing effect |
-| `image-08.txt` | ChatGPT prompt — Sleep and memory consolidation |
-| `image-09.txt` | ChatGPT prompt — Feedback loops |
-| `image-10.txt` | ChatGPT prompt — Psychology of persistence |
-| `heygen-video-script.txt` | Full HeyGen production prompt with image cues and script |
-| `production-guide.md` | This document — complete step-by-step production guide |
+| File                      | Purpose                                                               |
+| ------------------------- | --------------------------------------------------------------------- |
+| `image-01.txt`            | ChatGPT prompt — Talent myth monolith shattering                      |
+| `image-02.txt`            | ChatGPT prompt — Neural pathways forming (Hebbian learning)           |
+| `image-03.txt`            | ChatGPT prompt — Myelin wrapping axon fibers                          |
+| `image-04.txt`            | ChatGPT prompt — Living brain rewiring (neuroplasticity)              |
+| `image-05.txt`            | ChatGPT prompt — Deliberate vs. mindless practice split               |
+| `image-06.txt`            | ChatGPT prompt — Four stages of competence staircase                  |
+| `image-07.txt`            | ChatGPT prompt — Spacing effect memory landscape                      |
+| `image-08.txt`            | ChatGPT prompt — Sleep consolidation (night window + neural activity) |
+| `image-09.txt`            | ChatGPT prompt — Feedback loop torus machine                          |
+| `image-10.txt`            | ChatGPT prompt — Persistence mountain path to summit                  |
+| `heygen-video-script.txt` | Complete HeyGen production prompt — 14 scenes, full script, settings  |
+| `production-guide.md`     | This document                                                         |
