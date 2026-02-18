@@ -9,82 +9,73 @@ You are producing a 3-minute portrait-format (9:16 vertical) marketing video for
 
 Assets provided:
 - Author logo (opening and closing asset)
-- Book 1 cover image (second scene and second-to-last scene)
-- 10 b-roll images: image-01 through image-10 (content scenes)
+- Book 1 cover image (shown briefly when the narrator mentions the book)
 
 VIDEO FLOW:
-LOGO → BOOK COVER → image-01 → image-02 → image-03 → image-04 → image-05 → image-06 → image-07 → image-08 → image-09 → image-10 → BOOK COVER (CTA) → LOGO
+LOGO (with music) → NARRATOR speaks full video with lower-third captions → BOOK COVER shown for 5 seconds when narrator first mentions the book → back to NARRATOR → near end, BOOK COVER shown again when narrator mentions the book → CALL TO ACTION → AUTHOR LOGO → fade to black
 
-All images are displayed full-screen, portrait (9:16), centered and cropped to fill the frame. The AI avatar presenter is overlaid on top of each background image — positioned in the lower third of the frame throughout the entire video so the background visuals are clearly visible above and around the avatar. No text overlays of any kind. All transitions between scenes are smooth cross-fades of 0.5 seconds.
+The narrator (AI avatar) is on screen for the entire video. No b-roll images. Lower-third captions appear throughout all narrator scenes. The book cover appears as a full-screen insert for exactly 5 seconds each time the narrator mentions the book, then cuts back to the narrator. All transitions are smooth cross-fades of 0.5 seconds.
 
 =============================================================
 VIDEO SCRIPT WITH SCENE CUE MARKERS
 =============================================================
 
 [SCENE 1 — Display: AUTHOR LOGO — duration: 5 seconds — no narration]
-[Logo appears centered on black background. Hold for 5 seconds. Cross-fade to Scene 2.]
+[Logo appears centered on black background. Music plays at full volume. Hold for 5 seconds. Cross-fade to Scene 2.]
 
-[SCENE 2 — Display: BOOK COVER — duration: 8 seconds]
+[SCENE 2 — NARRATOR on screen — lower-third captions active]
 What if everything you have ever believed about talent is wrong?
 
-[SCENE 3 — Display: image-01 — The Talent Myth Shattering]
 What if the people you admire most — the athletes, the musicians, the brilliant minds who seem to operate on another level — what if they did not start with some gift you were never given? What if the real secret behind every extraordinary skill ever developed by a human being comes down to one word? Repetition.
 
-[SCENE 4 — Display: image-02 — Neural Pathways Forming]
+[SCENE 3 — Display: BOOK COVER — duration: 5 seconds — narrator pauses, no narration]
+[Book cover shown full screen for 5 seconds. Cross-fade back to narrator.]
+
+[SCENE 4 — NARRATOR on screen — lower-third captions active]
 This is The Foundation of Mastery, Book One of the Repetition: Mother of Mastery series by Ketan Shukla. Inside these pages, you will discover exactly what happens inside your brain every single time you repeat a skill. You will learn how neural pathways physically form and strengthen with each repetition — how your brain literally rewires itself through a process called Hebbian learning, where neurons that fire together wire together.
 
-[SCENE 5 — Display: image-03 — Myelin Wrapping]
 You will understand how a substance called myelin wraps around your nerve fibers every time you practice — making signals travel faster and with more precision, turning slow and clumsy movements into fast, fluid, effortless performance. This is not motivation. This is biology. This is the actual machinery of mastery happening inside your body every time you show up and do the work.
 
-[SCENE 6 — Display: image-04 — Neuroplasticity]
 But it goes even deeper than that. You will discover neuroplasticity — your brain's infinite capacity to grow and reorganize itself at any age. It does not matter if you are twenty or sixty. Your brain is built to learn, to adapt, to master new skills for as long as you are alive. The only question is whether you give it the repetitions it needs.
 
-[SCENE 7 — Display: image-05 — Deliberate Practice vs. Mindless Repetition]
 And here is where this book separates itself from everything else you have read. It does not just tell you to practice more. It shows you the difference between deliberate practice and mindless repetition — and that difference is everything. Mindless repetition is going through the motions. Deliberate practice is focused, intentional, and targeted. This book lays out exactly how to practice deliberately so that every hour you invest delivers maximum results.
 
-[SCENE 8 — Display: image-06 — The Four Stages of Competence]
 You will learn the four stages of competence — the predictable path that every human being walks from total ignorance to effortless mastery. You will understand exactly where you are on that path and what it takes to reach the next level.
 
-[SCENE 9 — Display: image-07 — The Spacing Effect]
 You will discover the spacing effect — the scientific proof that distributing your practice over time produces dramatically better retention than cramming everything into marathon sessions.
 
-[SCENE 10 — Display: image-08 — Sleep and Memory Consolidation]
 You will learn why sleep is not wasted time but one of the most powerful tools in your mastery arsenal — because while you sleep, your brain is actively consolidating and strengthening every pattern you practiced during the day.
 
-[SCENE 11 — Display: image-09 — Feedback Loops]
 And you will master the art of feedback loops — the engine that transforms blind repetition into precision-guided growth, turning every practice session into a guaranteed step forward.
 
-[SCENE 12 — Display: image-10 — The Psychology of Persistence]
 This book also confronts the psychology of persistence head on. The people who achieve mastery are not the ones who never wanted to quit. They are the ones who kept going anyway. This book shows you exactly how to develop persistence as a trainable skill — because that is precisely what it is.
 
-[SCENE 13 — Display: BOOK COVER — duration: 20 seconds — CALL TO ACTION]
-The Foundation of Mastery is ten chapters of pure, evidence-based insight that will fundamentally rewire your understanding of human potential. After reading this book, you will never look at talent the same way again. You will see it for what it really is — the visible result of invisible repetitions, performed consistently, over time. Get your copy of The Foundation of Mastery today on Amazon. And if you are ready to commit to the full transformation, pick up the complete Repetition: Mother of Mastery series. Five books. Fifty chapters. One unstoppable journey from where you are now to where you were always meant to be.
+[SCENE 5 — Display: BOOK COVER — duration: 5 seconds — narrator pauses, no narration]
+[Book cover shown full screen for 5 seconds. Cross-fade back to narrator.]
 
-[SCENE 14 — Display: AUTHOR LOGO — duration: 5 seconds — no narration]
-[Logo appears centered on black background. Hold for 5 seconds. Fade to black.]
+[SCENE 6 — NARRATOR on screen — lower-third captions active — CALL TO ACTION]
+The Foundation of Mastery is ten chapters of pure, evidence-based insight that will fundamentally rewire your understanding of human potential. After reading this book, you will never look at talent the same way again. You will see it for what it really is — the visible result of invisible repetitions, performed consistently, over time.
+
+Get your copy of The Foundation of Mastery today on Amazon. And if you are ready to commit to the full transformation, pick up the complete Repetition: Mother of Mastery series. Five books. Fifty chapters. One unstoppable journey from where you are now to where you were always meant to be.
+
+[SCENE 7 — Display: AUTHOR LOGO — duration: 5 seconds — no narration]
+[Logo appears centered on black background. Music at full volume. Hold for 5 seconds. Fade to black.]
 
 =============================================================
 SCENE TIMING SUMMARY
 =============================================================
 
-Scene | Duration  | Asset          | Narration
-------|-----------|----------------|------------------------------------------
-1     | 0:00–0:05 | Author Logo    | Silent — logo hold
-2     | 0:05–0:13 | Book Cover     | "What if everything you have ever believed about talent is wrong?"
-3     | 0:13–0:35 | image-01       | Talent myth — "What if they did not start with some gift..."
-4     | 0:35–1:00 | image-02       | Neural pathways — "...neurons that fire together wire together"
-5     | 1:00–1:22 | image-03       | Myelin — "...turning slow and clumsy movements into fast, fluid, effortless performance"
-6     | 1:22–1:42 | image-04       | Neuroplasticity — "...your brain is built to learn at any age"
-7     | 1:42–2:03 | image-05       | Deliberate vs. mindless — "...every hour you invest delivers maximum results"
-8     | 2:03–2:15 | image-06       | Four stages — "...what it takes to reach the next level"
-9     | 2:15–2:25 | image-07       | Spacing effect — "...dramatically better retention than cramming"
-10    | 2:25–2:35 | image-08       | Sleep consolidation — "...consolidating and strengthening every pattern"
-11    | 2:35–2:45 | image-09       | Feedback loops — "...every practice session into a guaranteed step forward"
-12    | 2:45–2:57 | image-10       | Persistence — "...develop persistence as a trainable skill"
-13    | 2:57–3:17 | Book Cover     | Full closing CTA
-14    | 3:17–3:22 | Author Logo    | Silent — logo hold — fade to black
+Scene | Duration    | Display              | Notes
+------|-------------|----------------------|------------------------------------------
+1     | 0:00–0:05   | Author Logo          | Music at full volume, no narration
+2     | 0:05–0:25   | Narrator             | Opening hook — talent myth
+3     | 0:25–0:30   | Book Cover           | 5-second book cover insert, narrator pauses
+4     | 0:30–2:45   | Narrator             | Full content narration with lower-third captions
+5     | 2:45–2:50   | Book Cover           | 5-second book cover insert, narrator pauses
+6     | 2:50–3:20   | Narrator             | Closing CTA
+7     | 3:20–3:25   | Author Logo          | Music at full volume, no narration, fade to black
 
-Total runtime: approximately 3 minutes 22 seconds
+Total runtime: approximately 3 minutes 25 seconds
 
 =============================================================
 PRODUCTION SETTINGS FOR HEYGEN
@@ -95,21 +86,31 @@ FORMAT
 - Resolution: 1080 × 1920
 - Frame rate: 30fps
 
-AVATAR PLACEMENT
-- Position: Lower third of frame throughout entire video
-- The avatar should be visible but positioned low enough that the b-roll background image is clearly visible in the upper two-thirds of the frame
-- On logo and book cover scenes: avatar can be centered or lower-third — ensure the book cover or logo is fully visible and not obscured
+NARRATOR / AVATAR
+- The AI avatar narrator is on screen for the entire video except during logo and book cover scenes
+- Avatar position: centered in frame, full presenter view
+- Background behind narrator: solid black or a clean dark gradient — no b-roll images
+
+CAPTIONS
+- Lower-third captions are active throughout all narrator scenes (Scenes 2, 4, and 6)
+- Caption style: clean, readable font — white text with a subtle dark background or drop shadow
+- Caption position: lower third of frame
+- Captions auto-sync to the narrator's speech
+
+BOOK COVER INSERTS (Scenes 3 and 5)
+- Book cover displayed full screen, portrait (9:16), centered
+- Duration: exactly 5 seconds each
+- Narrator pauses during book cover display — no narration over the cover
+- Transition in: cross-fade 0.5 seconds from narrator scene
+- Transition out: cross-fade 0.5 seconds back to narrator scene
 
 TRANSITIONS
 - All scene transitions: smooth cross-fade, 0.5 seconds
 - No cuts, no wipes, no other transition types
 
-TEXT OVERLAYS
-- None. No captions, no lower-third text, no title cards of any kind.
-
 MUSIC
 - Style: warm, cinematic, instrumental — builds gradually from quiet and contemplative at the opening to powerful and inspiring at the closing CTA
-- Volume under narration: 15–20%
-- Volume on logo scenes (Scenes 1 and 14): 50–60%
-- Volume on book cover scenes (Scenes 2 and 13): 40–50%
+- Volume on logo scenes (Scenes 1 and 7): 60–70%
+- Volume under narration (Scenes 2, 4, 6): 15–20%
+- Volume on book cover inserts (Scenes 3 and 5): 40–50%
 - Pacing: measured and authoritative — not rushed. Allow each concept to land before transitioning.
