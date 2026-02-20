@@ -1,6 +1,6 @@
 "use client";
 
-import { ShoppingCart, BookOpen } from "lucide-react";
+import { Tablet, BookMarked, BookOpen } from "lucide-react";
 import { books } from "@/data/books";
 import { useBook } from "@/context/BookContext";
 
@@ -68,11 +68,22 @@ export default function BooksSection() {
                 {/* Buttons */}
                 <div className="mt-auto flex flex-col gap-2">
                   <a
-                    href="#"
-                    className="btn-amazon flex items-center justify-center gap-1.5 text-xs sm:text-sm py-2 px-3 whitespace-nowrap"
+                    href={book.kindleUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center gap-1.5 w-full rounded-lg bg-[#FF9900] py-2 px-3 text-xs sm:text-sm font-bold tracking-wide text-black transition-all duration-200 hover:bg-[#e68a00] active:scale-95"
                   >
-                    <ShoppingCart className="h-3.5 w-3.5 shrink-0" />
-                    Buy on Amazon
+                    <Tablet className="h-3.5 w-3.5 shrink-0" />
+                    Buy Kindle
+                  </a>
+                  <a
+                    href={book.paperbackUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center gap-1.5 w-full rounded-lg border border-gold/40 bg-gold/10 py-2 px-3 text-xs sm:text-sm font-bold tracking-wide text-gold transition-all duration-200 hover:bg-gold/20 hover:border-gold/60 active:scale-95"
+                  >
+                    <BookMarked className="h-3.5 w-3.5 shrink-0" />
+                    Buy Paperback
                   </a>
                   <button
                     onClick={() => openBook(index)}
