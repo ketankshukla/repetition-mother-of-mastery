@@ -1,7 +1,5 @@
 "use client";
 
-import { ShoppingCart } from "lucide-react";
-
 export default function Hero() {
   return (
     <section className="relative flex flex-col overflow-hidden">
@@ -27,19 +25,6 @@ export default function Hero() {
               alt="Repetition: Mother of Mastery — The Complete Series"
               className="w-full h-auto rounded-xl shadow-professional border border-white/10"
             />
-          </div>
-
-          {/* Buy Series button */}
-          <div className="text-center mb-0">
-            <a
-              href="https://www.amazon.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-amazon inline-flex items-center justify-center gap-3 text-lg sm:text-xl px-8 sm:px-10 py-3 sm:py-4 whitespace-nowrap"
-            >
-              <ShoppingCart className="w-5 h-5 sm:w-6 sm:h-6" />
-              Buy This Series on Amazon
-            </a>
           </div>
         </div>
       </div>
