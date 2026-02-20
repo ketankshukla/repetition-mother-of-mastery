@@ -1,6 +1,6 @@
 "use client";
 
-import { Tablet, BookMarked, BookOpen } from "lucide-react";
+import { Tablet, BookMarked, BookOpen, Library } from "lucide-react";
 import { books } from "@/data/books";
 import { useBook } from "@/context/BookContext";
 
@@ -33,7 +33,7 @@ export default function BooksSection() {
         </div>
 
         {/* Books Grid */}
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-5">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-5 mb-12">
           {books.map((book, index) => (
             <div
               key={book.id}
@@ -96,6 +96,22 @@ export default function BooksSection() {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* Buy The Series */}
+        <div className="text-center">
+          <p className="font-serif text-xs tracking-[0.25em] uppercase text-gold/50 mb-4">
+            Own the complete series
+          </p>
+          <a
+            href="https://www.amazon.com/dp/B0GNZ7B92N"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-3 rounded-lg bg-[#FF9900] px-8 py-3 text-sm font-bold tracking-wide text-black transition-all duration-200 hover:bg-[#e68a00] hover:shadow-lg hover:shadow-[#FF9900]/20 active:scale-95"
+          >
+            <Library className="h-4 w-4 shrink-0" />
+            Buy The Complete Series on Amazon
+          </a>
         </div>
       </div>
     </section>
