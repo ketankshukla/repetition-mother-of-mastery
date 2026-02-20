@@ -64,7 +64,7 @@ export default function Footer() {
             </h4>
             <div className="space-y-2">
               <a
-                href="https://www.amazon.com"
+                href="https://www.amazon.com/dp/B0GNZ7B92N"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-cream/40 hover:text-gold transition-colors text-base"
