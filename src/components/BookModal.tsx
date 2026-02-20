@@ -8,7 +8,8 @@ import {
   X,
   ArrowLeft,
   ArrowRight,
-  ShoppingCart,
+  Tablet,
+  BookMarked,
 } from "lucide-react";
 import { books } from "@/data/books";
 import { useBook } from "@/context/BookContext";
@@ -183,21 +184,30 @@ export default function BookModal() {
             </div>
 
             {/* Buy Buttons */}
-            <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center sm:gap-6 border-t border-gold/10 pt-8">
-              <a
-                href="#"
-                className="btn-amazon inline-flex items-center gap-3 text-sm sm:text-base tracking-wide whitespace-nowrap"
-              >
-                <ShoppingCart className="h-4 w-4 sm:h-5 sm:w-5" />
-                Buy This Book on Amazon
-              </a>
-              <a
-                href="#"
-                className="btn-amazon inline-flex items-center gap-3 text-sm sm:text-base tracking-wide whitespace-nowrap"
-              >
-                <ShoppingCart className="h-4 w-4 sm:h-5 sm:w-5" />
-                Buy The Series on Amazon
-              </a>
+            <div className="border-t border-gold/10 pt-8">
+              <p className="text-center font-serif text-xs tracking-[0.25em] uppercase text-gold/50 mb-4">
+                Available on Amazon
+              </p>
+              <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center sm:gap-4">
+                <a
+                  href={book.kindleUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-3 rounded-lg bg-[#FF9900] px-6 py-3 text-sm font-bold tracking-wide text-black transition-all duration-200 hover:bg-[#e68a00] hover:shadow-lg hover:shadow-[#FF9900]/20 active:scale-95"
+                >
+                  <Tablet className="h-4 w-4 shrink-0" />
+                  Buy Kindle
+                </a>
+                <a
+                  href={book.paperbackUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-3 rounded-lg border border-gold/40 bg-gold/10 px-6 py-3 text-sm font-bold tracking-wide text-gold transition-all duration-200 hover:bg-gold/20 hover:border-gold/60 hover:shadow-lg hover:shadow-gold/10 active:scale-95"
+                >
+                  <BookMarked className="h-4 w-4 shrink-0" />
+                  Buy Paperback
+                </a>
+              </div>
             </div>
 
             {/* Navigation */}

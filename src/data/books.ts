@@ -15,6 +15,8 @@ export interface Book {
   coverImage: string;
   chapters: Chapter[];
   color: string;
+  kindleUrl: string;
+  paperbackUrl: string;
 }
 
 export const books: Book[] = [
@@ -34,6 +36,8 @@ export const books: Book[] = [
       "What if everything you believed about talent was wrong? In this groundbreaking first volume, we journey deep into the neuroscience of mastery — exploring how neural pathways form and strengthen with each repetition, how myelin physically wraps your nerve fibers to build speed and skill, and how neuroplasticity ensures your brain never stops growing. From Hebbian learning to the spacing effect, from the role of sleep in consolidating practice to the power of feedback loops, this book dismantles the myth of innate talent and reveals the extraordinary biological machinery that transforms ordinary repetition into extraordinary ability. You will discover why deliberate practice outperforms mindless repetition by orders of magnitude, how the four stages of competence map your journey from novice to master, and why the science of persistence is the most undervalued skill in human achievement.",
     coverImage: "/images/book1-cover.png",
     color: "#3b82f6",
+    kindleUrl: "https://www.amazon.com/dp/B0GNYVY3GG",
+    paperbackUrl: "https://www.amazon.com/dp/B0GP6P5423",
     chapters: [
       {
         number: 1,
@@ -113,6 +117,8 @@ export const books: Book[] = [
       "Understanding the science is only the beginning — now it's time to engineer the systems that make mastery inevitable. This second volume transforms neuroscience into daily action, revealing the hidden mechanics of the habit loop and showing you exactly how to harness cue, routine, and reward to build unbreakable practice habits. You'll discover why starting impossibly small creates unstoppable momentum, why consistency demolishes intensity every time, and how to design your environment so that practice becomes the path of least resistance. From tracking the compound effect of small wins to breaking through plateaus, from cultivating a growth mindset to building discipline that doesn't depend on the fleeting fire of motivation — this book is your blueprint for constructing an engine of excellence that runs on autopilot.",
     coverImage: "/images/book2-cover.png",
     color: "#10b981",
+    kindleUrl: "https://www.amazon.com/dp/B0GNYSFVP7",
+    paperbackUrl: "https://www.amazon.com/dp/B0GP1N17RY",
     chapters: [
       {
         number: 11,
@@ -192,6 +198,8 @@ export const books: Book[] = [
       "Theory meets reality in this electrifying third volume, where the science and systems of the first two books come alive inside the training rooms of elite athletes, the studios of master artists, and the classrooms of fluent linguists. Witness how ten thousand repetitions encode muscle memory so deeply it becomes effortless, how mental rehearsal activates the same neural circuits as physical practice, and how the world's greatest creative minds achieved mastery not through inspiration but through relentless daily practice. You'll explore the fascinating science of finding your artistic voice through accumulated repetitions, learn proven methods for overcoming creative blocks, and discover the revolutionary spaced repetition systems that have transformed language acquisition. The crowning insight: mastery in one domain accelerates mastery in every other — the extraordinary principle of cross-domain transfer.",
     coverImage: "/images/book3-cover.png",
     color: "#f59e0b",
+    kindleUrl: "https://www.amazon.com/dp/B0GNYJ9WHC",
+    paperbackUrl: "https://www.amazon.com/dp/B0GP1CX4D6",
     chapters: [
       {
         number: 21,
@@ -271,6 +279,8 @@ export const books: Book[] = [
       "Practice hard, but more importantly, practice smart. This fourth volume arms you with the advanced cognitive techniques that separate good learners from extraordinary ones. You'll master active recall — the single most powerful learning technique ever discovered, producing two to three times more retention than passive review. You'll learn the counterintuitive science of interleaved practice, where mixing skills produces dramatically better long-term results than isolated drilling. Discover the teaching effect — why explaining what you know to others forces deeper processing and accelerates your own mastery — and learn how to build sophisticated feedback systems that transform blind effort into precision-guided improvement. From becoming your own best coach to gamifying the ancient principles of repetitive practice, this book sharpens every tool in your cognitive arsenal.",
     coverImage: "/images/book4-cover.png",
     color: "#8b5cf6",
+    kindleUrl: "https://www.amazon.com/dp/B0GP1CX4D6",
+    paperbackUrl: "https://www.amazon.com/dp/B0GP21LZFT",
     chapters: [
       {
         number: 31,
@@ -349,6 +359,8 @@ export const books: Book[] = [
       "The final volume weaves everything together into a complete philosophy of living. Here, mastery transcends skill and becomes a way of life — integrated into your business, your relationships, your daily routines, and your deepest sense of purpose. You'll learn how the principles of repetition drive entrepreneurial success and innovation, how to design sustainable daily schedules that nurture practice across every dimension of life, and how sustained practice builds psychological resilience that transfers to every challenge you face. This book confronts the long game: how to maintain momentum across decades, how community and mentorship amplify individual practice, and how daily repetition transforms not just your skills but your character and identity. The journey culminates in the philosophy of mastery itself — the creation of a legacy that extends beyond your lifetime, and a final call to action for the rest of your life.",
     coverImage: "/images/book5-cover.png",
     color: "#ef4444",
+    kindleUrl: "https://www.amazon.com/dp/B0GNWGD7HG",
+    paperbackUrl: "https://www.amazon.com/dp/B0GP1XPM2B",
     chapters: [
       {
         number: 41,
