@@ -54,19 +54,19 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/series-logo-repetition-mother-of-mastery.png",
-        width: 512,
-        height: 512,
-        alt: "Repetition: Mother of Mastery series logo",
+        url: "/images/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Repetition: Mother of Mastery — 5-Book Self-Improvement Series by Ketan Shukla",
       },
     ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Repetition: Mother of Mastery — 5-Book Self-Improvement Series",
     description:
       "A five-book non-fiction journey from the science of repetition to the mastery of life. Neuroscience, deliberate practice, and cognitive mastery. By Ketan Shukla.",
-    images: ["/images/series-logo-repetition-mother-of-mastery.png"],
+    images: ["/images/og-image.png"],
   },
 };
 
