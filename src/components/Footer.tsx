@@ -92,9 +92,20 @@ export default function Footer() {
           <p className="text-cream/30 text-sm">
             &copy; {new Date().getFullYear()} Ketan Shukla. All rights reserved.
           </p>
-          <p className="text-cream/20 text-sm italic font-serif">
-            &ldquo;Repetition is the mother of mastery.&rdquo;
-          </p>
+          <div className="flex items-center gap-3">
+            <a
+              href="https://metronagon.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-cream/20 hover:text-gold text-sm transition-colors"
+            >
+              Book covers by Metronagon Media
+            </a>
+            <span className="text-cream/10">|</span>
+            <p className="text-cream/20 text-sm italic font-serif">
+              &ldquo;Repetition is the mother of mastery.&rdquo;
+            </p>
+          </div>
         </div>
       </div>
 
