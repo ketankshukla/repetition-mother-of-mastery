@@ -40,3 +40,6 @@ next-env.d.ts
 
 # project-specific
 extracted_text.txt
+
+# video files
+*.mp4
