@@ -1,6 +1,6 @@
 # Author's Note
 
-Thank you for reading *The Foundation of Mastery*.
+Thank you for listening to *The Foundation of Mastery*.
 
 This book began with a frustration that had been building for years — watching people abandon their pursuits because they believed they lacked talent. The myth of innate genius is one of the most destructive ideas in human history, and I wanted to dismantle it with the one thing it cannot withstand: evidence.
 

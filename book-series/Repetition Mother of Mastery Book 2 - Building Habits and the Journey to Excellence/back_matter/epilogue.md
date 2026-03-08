@@ -28,15 +28,3 @@ In Book 3, you will discover:
 - **Cross-domain mastery** — the extraordinary principle that skills built through repetition in one domain transfer to and accelerate mastery in every other domain
 
 The science is proven. The habits are built. Now see what happens when repetition meets passion, purpose, and the relentless pursuit of greatness.
-
----
-
-**Repetition: Mother of Mastery — The Complete Series**
-
-- **Book 1:** *The Foundation of Mastery — The Science and Psychology of Repetition*
-- **Book 2:** *The Habit Engine — Building Habits and the Journey to Excellence* ← You are here
-- **Book 3:** *Mastery in Action — Sports, Arts, and Language — Where Repetition Creates Greatness*
-- **Book 4:** *The Cognitive Edge — Memory, Learning, and Feedback — The Mental Architecture of Mastery*
-- **Book 5:** *Living Mastery — Routines, Growth, and Legacy — Integrating Repetition into Every Dimension of Life*
-
-*A five-book journey from the science of repetition to the mastery of life.*

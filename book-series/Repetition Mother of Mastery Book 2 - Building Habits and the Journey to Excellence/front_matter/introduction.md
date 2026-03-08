@@ -10,25 +10,25 @@ This book answers the next question: *how do you make it happen?*
 
 ## What This Book Addresses
 
-**Chapter 11: The Habit Loop — Cue, Routine, Reward** — The neurological cycle that drives all habitual behavior. Understanding this loop gives you the power to engineer new habits and dismantle old ones with precision and predictability.
+**Chapter 1: The Habit Loop — Cue, Routine, Reward** — The neurological cycle that drives all habitual behavior. Understanding this loop gives you the power to engineer new habits and dismantle old ones with precision and predictability.
 
-**Chapter 12: Starting Small — The Power of Micro-Habits** — Why starting impossibly small is the most powerful strategy for building lasting habits. Micro-habits bypass resistance, build momentum, and create the foundation for extraordinary consistency.
+**Chapter 2: Starting Small — The Power of Micro-Habits** — Why starting impossibly small is the most powerful strategy for building lasting habits. Micro-habits bypass resistance, build momentum, and create the foundation for extraordinary consistency.
 
-**Chapter 13: Consistency Over Intensity — Why Showing Up Beats Burning Out** — The scientific proof that daily, moderate effort produces dramatically better results than sporadic, intense bursts. Consistency is the single most important variable in the mastery equation.
+**Chapter 3: Consistency Over Intensity — Why Showing Up Beats Burning Out** — The scientific proof that daily, moderate effort produces dramatically better results than sporadic, intense bursts. Consistency is the single most important variable in the mastery equation.
 
-**Chapter 14: Environmental Design — Engineering Your World for Success** — How to restructure your physical environment so that practice becomes the path of least resistance. Your surroundings shape your behavior more powerfully than your willpower ever can.
+**Chapter 4: Environmental Design — Engineering Your World for Success** — How to restructure your physical environment so that practice becomes the path of least resistance. Your surroundings shape your behavior more powerfully than your willpower ever can.
 
-**Chapter 15: Tracking Progress — The Compound Effect of Small Wins** — How to measure and celebrate incremental progress, harnessing the extraordinary compound effect that transforms tiny daily improvements into massive long-term results.
+**Chapter 5: Tracking Progress — The Compound Effect of Small Wins** — How to measure and celebrate incremental progress, harnessing the extraordinary compound effect that transforms tiny daily improvements into massive long-term results.
 
-**Chapter 16: Overcoming Plateaus — Breaking Through When Progress Stalls** — Proven strategies for identifying, understanding, and breaking through the plateaus that stop most practitioners cold. Plateaus are not dead ends — they are launchpads.
+**Chapter 6: Overcoming Plateaus — Breaking Through When Progress Stalls** — Proven strategies for identifying, understanding, and breaking through the plateaus that stop most practitioners cold. Plateaus are not dead ends — they are launchpads.
 
-**Chapter 17: The Growth Mindset — Rewiring Your Relationship with Failure** — How to transform your psychological relationship with failure, setbacks, and mistakes so that they become fuel for growth rather than reasons to quit.
+**Chapter 7: The Growth Mindset — Rewiring Your Relationship with Failure** — How to transform your psychological relationship with failure, setbacks, and mistakes so that they become fuel for growth rather than reasons to quit.
 
-**Chapter 18: Intrinsic vs. Extrinsic Motivation — Finding the Fire That Lasts** — The critical difference between motivation that burns out in weeks and motivation that sustains effort for years. Finding your intrinsic fire is the key to lifelong practice.
+**Chapter 8: Intrinsic vs. Extrinsic Motivation — Finding the Fire That Lasts** — The critical difference between motivation that burns out in weeks and motivation that sustains effort for years. Finding your intrinsic fire is the key to lifelong practice.
 
-**Chapter 19: Discipline Over Motivation — Why Willpower Is Not Enough** — Why relying on motivation and willpower is a losing strategy, and how building systems, routines, and environmental supports creates discipline that does not depend on how you feel.
+**Chapter 9: Discipline Over Motivation — Why Willpower Is Not Enough** — Why relying on motivation and willpower is a losing strategy, and how building systems, routines, and environmental supports creates discipline that does not depend on how you feel.
 
-**Chapter 20: The Journey from Novice to Expert — Mapping the Mastery Path** — The complete, practical map of the mastery journey — from the first awkward attempt to fluid expertise. Understanding this map gives you the confidence to persist through every phase.
+**Chapter 10: The Journey from Novice to Expert — Mapping the Mastery Path** — The complete, practical map of the mastery journey — from the first awkward attempt to fluid expertise. Understanding this map gives you the confidence to persist through every phase.
 
 This is where science becomes practice. This is where understanding becomes action. And this is where your daily life begins to transform into a mastery machine.
 

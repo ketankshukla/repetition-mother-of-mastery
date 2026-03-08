@@ -1,6 +1,6 @@
 # Author's Note
 
-Thank you for reading *The Habit Engine*.
+Thank you for listening to *The Habit Engine*.
 
 If Book 1 was the science, this book is the engineering. The habit loop, micro-habits, environmental design, the compound effect of small wins — these are the tools that transform understanding into daily action.
 

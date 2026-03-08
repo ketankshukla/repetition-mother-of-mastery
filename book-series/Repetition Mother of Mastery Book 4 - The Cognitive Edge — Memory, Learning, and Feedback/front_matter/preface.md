@@ -15,5 +15,3 @@ You will discover how memory actually works — not the simplified version, but 
 You will dive deep into feedback — how systematic correction transforms effort into excellence, and how to become your own best coach through structured self-assessment. You will trace the repetitive cycle through every level of education — from primary school to professional development. You will confront the universal challenge of boredom — and discover proven strategies for staying engaged when practice feels monotonous. And you will explore how modern technology — gamification, apps, and digital tools — can supercharge the ancient principles of repetitive practice.
 
 This is the owner's manual for your brain. Use it, and everything changes.
-
-— **Ketan Shukla**

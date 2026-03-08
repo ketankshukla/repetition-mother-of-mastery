@@ -29,5 +29,3 @@ Each book stands on its own. Each book builds on what came before. And together,
 The journey begins here. The science is clear. The path is proven. And the only question is whether you are ready to walk it.
 
 Let us begin.
-
-— **Ketan Shukla**

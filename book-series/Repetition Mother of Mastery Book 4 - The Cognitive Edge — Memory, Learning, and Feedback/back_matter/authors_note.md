@@ -1,6 +1,6 @@
 # Author's Note
 
-Thank you for reading *The Cognitive Edge*.
+Thank you for listening to *The Cognitive Edge*.
 
 This book was about working smarter, not just harder. Active recall — the single most powerful learning technique ever discovered — produces two to three times more retention than passive review. Interleaved practice. The teaching effect. Self-assessment. These are the techniques that separate good learners from extraordinary ones.
 

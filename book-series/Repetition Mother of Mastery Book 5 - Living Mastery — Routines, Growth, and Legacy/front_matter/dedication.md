@@ -1,11 +1,11 @@
 # Dedication
 
-*To Nimisha Acharya —*
+For Nimisha Acharya
 
-*The living proof that mastery is not a destination*
-*but a way of being.*
+Twenty years of partnership. Twenty years of support that never wavered. Twenty years of standing beside someone who questions everything, who refuses comfortable answers, who insists on facing what is so even when what is so is difficult.
 
-*Every day you show me what it means*
-*to live with purpose, discipline, and grace.*
+You have been my pillar through every challenge, every breakthrough, every moment of doubt and every moment of clarity. You have watched me dismantle beliefs and rebuild understanding. You have been patient when my questioning extended into hours of conversation. You have been present when presence was what I needed most.
 
-*This series — and the life it describes — is yours.*
+This book is about reality. You are the reality I am most grateful for.
+
+With love and gratitude.

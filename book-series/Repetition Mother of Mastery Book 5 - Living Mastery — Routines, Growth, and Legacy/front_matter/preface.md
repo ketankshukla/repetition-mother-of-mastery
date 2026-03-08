@@ -13,5 +13,3 @@ This is the question that *Living Mastery* answers. It takes the principles from
 This is not a book about practicing a skill. It is a book about living a life — a life in which the principles of mastery inform every decision, every habit, every relationship, and every aspiration. A life in which repetition is not just a practice technique but a philosophy — a way of engaging with the world that produces excellence, fulfillment, and meaning in everything you do.
 
 You have the science. You have the habits. You have the proof. You have the techniques. Now it is time to live it.
-
-— **Ketan Shukla**

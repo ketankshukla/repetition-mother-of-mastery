@@ -34,15 +34,3 @@ In Book 2, you will discover:
 The science is clear. Your brain is ready. And the habits you build next will determine whether the knowledge in this book transforms your life or remains an interesting idea that you read once and forgot.
 
 Do not let that happen. Turn the page. Build the habits. And let repetition do what repetition has always done — transform the ordinary into the extraordinary.
-
----
-
-**Repetition: Mother of Mastery — The Complete Series**
-
-- **Book 1:** *The Foundation of Mastery — The Science and Psychology of Repetition* ← You are here
-- **Book 2:** *The Habit Engine — Building Habits and the Journey to Excellence*
-- **Book 3:** *Mastery in Action — Sports, Arts, and Language — Where Repetition Creates Greatness*
-- **Book 4:** *The Cognitive Edge — Memory, Learning, and Feedback — The Mental Architecture of Mastery*
-- **Book 5:** *Living Mastery — Routines, Growth, and Legacy — Integrating Repetition into Every Dimension of Life*
-
-*A five-book journey from the science of repetition to the mastery of life.*

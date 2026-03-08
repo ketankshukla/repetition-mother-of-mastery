@@ -30,15 +30,3 @@ In Book 4, you will discover:
 - **Gamification and technology** — how modern tools can supercharge the ancient principles of repetitive practice
 
 The science is proven. The habits are built. The proof is in. Now discover the cognitive techniques that will give you an edge that most practitioners never find.
-
----
-
-**Repetition: Mother of Mastery — The Complete Series**
-
-- **Book 1:** *The Foundation of Mastery — The Science and Psychology of Repetition*
-- **Book 2:** *The Habit Engine — Building Habits and the Journey to Excellence*
-- **Book 3:** *Mastery in Action — Sports, Arts, and Language — Where Repetition Creates Greatness* ← You are here
-- **Book 4:** *The Cognitive Edge — Memory, Learning, and Feedback — The Mental Architecture of Mastery*
-- **Book 5:** *Living Mastery — Routines, Growth, and Legacy — Integrating Repetition into Every Dimension of Life*
-
-*A five-book journey from the science of repetition to the mastery of life.*

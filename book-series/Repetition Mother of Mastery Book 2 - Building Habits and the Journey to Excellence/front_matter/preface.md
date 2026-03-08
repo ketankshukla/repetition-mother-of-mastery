@@ -15,5 +15,3 @@ Habits are the invisible architecture of your daily life. They are the routines 
 This book shows you exactly how to do that. It reveals the neurological habit loop that drives all habitual behavior. It introduces the extraordinary power of micro-habits — starting so small that failure is impossible. It proves why consistency destroys intensity every time. It teaches you to engineer your environment for automatic success. It shows you how to track progress, break through plateaus, cultivate a growth mindset, find lasting motivation, build discipline that does not depend on willpower, and map the complete journey from novice to expert.
 
 This is where the science becomes practice. This is where understanding becomes transformation. And this is where your journey toward mastery shifts from aspiration to reality.
-
-— **Ketan Shukla**

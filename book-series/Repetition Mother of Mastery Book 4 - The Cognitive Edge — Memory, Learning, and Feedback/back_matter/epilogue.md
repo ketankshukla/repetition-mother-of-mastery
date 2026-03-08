@@ -28,15 +28,3 @@ In Book 5, you will discover:
 - **The final repetition** — a synthesis of the entire series and a call to action for the rest of your life
 
 The science is proven. The habits are built. The proof is in. The techniques are sharp. Now it is time to live mastery — in every dimension of your life, every day, for the rest of your life.
-
----
-
-**Repetition: Mother of Mastery — The Complete Series**
-
-- **Book 1:** *The Foundation of Mastery — The Science and Psychology of Repetition*
-- **Book 2:** *The Habit Engine — Building Habits and the Journey to Excellence*
-- **Book 3:** *Mastery in Action — Sports, Arts, and Language — Where Repetition Creates Greatness*
-- **Book 4:** *The Cognitive Edge — Memory, Learning, and Feedback — The Mental Architecture of Mastery* ← You are here
-- **Book 5:** *Living Mastery — Routines, Growth, and Legacy — Integrating Repetition into Every Dimension of Life*
-
-*A five-book journey from the science of repetition to the mastery of life.*

@@ -43,3 +43,11 @@ extracted_text.txt
 
 # video files
 *.mp4
+
+# audio files
+*.mp3
+*.wav
+
+# audiobooks
+amazon-production/audiobooks/output/
+amazon-production/audiobooks/.venv/

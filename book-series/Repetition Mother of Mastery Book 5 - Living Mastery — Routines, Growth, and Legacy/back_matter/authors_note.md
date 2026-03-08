@@ -1,6 +1,6 @@
 # Author's Note
 
-Thank you for reading *Living Mastery* — and for completing this five-book journey.
+Thank you for listening to *Living Mastery* — and for completing this five-book journey.
 
 This final book was the most personal to write. It is one thing to explain the science of repetition, the engineering of habits, the real-world evidence, and the cognitive techniques. It is another thing entirely to integrate all of that into a life — into your business, your relationships, your daily routines, and your deepest sense of purpose.
 

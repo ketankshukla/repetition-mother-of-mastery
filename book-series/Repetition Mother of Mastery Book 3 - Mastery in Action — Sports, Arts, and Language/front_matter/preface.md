@@ -13,5 +13,3 @@ This book takes you inside three of the most demanding domains of human performa
 You will discover how athletes build muscle memory and use mental rehearsal to perform under crushing pressure. You will see how artists develop technical mastery and find their unique voice through thousands of repeated creative acts. You will learn how language learners achieve fluency through spaced repetition and active engagement. And you will encounter the extraordinary principle of cross-domain transfer — the discovery that mastery in one field accelerates mastery in every other.
 
 This is where theory becomes proof. This is where science becomes story. And this is where the power of repetition becomes undeniable.
-
-— **Ketan Shukla**
