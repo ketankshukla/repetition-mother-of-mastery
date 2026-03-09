@@ -41,13 +41,31 @@ next-env.d.ts
 # project-specific
 extracted_text.txt
 
-# video files
-*.mp4
-
 # audio files
 *.mp3
 *.wav
+*.m4b
+*.m4a
+*.ogg
+*.flac
+*.aac
+
+# video files
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.wmv
+*.webm
+
+# archive files
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
 
 # audiobooks
 amazon-production/audiobooks/output/
+amazon-production/audiobooks/m4b-audiobook/
 amazon-production/audiobooks/.venv/

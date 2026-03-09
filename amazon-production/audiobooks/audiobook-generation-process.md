@@ -89,11 +89,13 @@ pip install -r requirements.txt
 ## Step 5: Generate Audiobooks
 
 ### All Books
+
 ```powershell
 .\.venv\Scripts\python.exe generate_audiobooks.py
 ```
 
 ### Single Book
+
 ```powershell
 .\.venv\Scripts\python.exe generate_audiobooks.py --book 1
 ```
@@ -109,6 +111,7 @@ After running the main audiobook generation:
 ```
 
 This generates:
+
 - `00-opening-credits.mp3` - Book title, author, narrator, copyright
 - `23-closing-credits.mp3` - Thank you message, next book teaser
 - `24-retail-sample.mp3` - 5-minute compelling sample from book beginning
@@ -153,6 +156,46 @@ MP3 files will be saved to:
 
 ---
 
+## Step 8: Create M4B Audiobooks
+
+After generating all MP3 files, create M4B audiobooks with embedded chapters and cover art:
+
+```powershell
+.\.venv\Scripts\python.exe create_m4b.py
+```
+
+This script:
+
+- Concatenates all MP3 files for each book
+- Converts to AAC format (M4B)
+- Embeds chapter markers based on track durations
+- Embeds cover art from `audiobook-covers/`
+- Outputs to `m4b-audiobook/[Book Name]/[Book Name].m4b`
+
+### M4B Output Structure
+
+```
+m4b-audiobook/
+├── Repetition Mother of Mastery Book 1 - The Science and Psychology of Repetition/
+│   └── Repetition Mother of Mastery Book 1 - The Science and Psychology of Repetition.m4b
+├── Repetition Mother of Mastery Book 2 - Building Habits and the Journey to Excellence/
+│   └── Repetition Mother of Mastery Book 2 - Building Habits and the Journey to Excellence.m4b
+├── Repetition Mother of Mastery Book 3 - Mastery in Action/
+│   └── Repetition Mother of Mastery Book 3 - Mastery in Action.m4b
+├── Repetition Mother of Mastery Book 4 - The Cognitive Edge/
+│   └── Repetition Mother of Mastery Book 4 - The Cognitive Edge.m4b
+└── Repetition Mother of Mastery Book 5 - Living Mastery/
+    └── Repetition Mother of Mastery Book 5 - Living Mastery.m4b
+```
+
+### Verify M4B Chapters
+
+```powershell
+ffprobe -i "path\to\file.m4b" -show_chapters
+```
+
+---
+
 ## ACX Track Listing (25 tracks per book)
 
 | Track | Filename                         | Source                          |
@@ -188,23 +231,25 @@ For each book, create a square cover image (2400×2400px, 24-bit color).
 
 ## Voice Options
 
-| Voice                | Description                    |
-| -------------------- | ------------------------------ |
-| `en-US-AvaNeural`    | US English female (this book)  |
-| `en-US-BrianNeural`  | US English male                |
-| `en-US-JennyNeural`  | US English female              |
-| `en-GB-RyanNeural`   | UK English male                |
+| Voice               | Description                   |
+| ------------------- | ----------------------------- |
+| `en-US-AvaNeural`   | US English female (this book) |
+| `en-US-BrianNeural` | US English male               |
+| `en-US-JennyNeural` | US English female             |
+| `en-GB-RyanNeural`  | UK English male               |
 
 ---
 
 ## Retail Sample Guidelines
 
 Per ACX requirements:
+
 - **Duration:** 5 minutes or less
 - **Content:** Start from the beginning of the audiobook for seamless transition
 - **Purpose:** Compelling hook to drive purchases
 
 Include:
+
 - Book title and author credit
 - Prologue excerpt
 - Introduction excerpt
